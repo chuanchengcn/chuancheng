@@ -1,0 +1,1183 @@
+body, div, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ul, ol, li, form, th, td, table, label, article, aside, dialog, footer, header, section, footer, nav, figure, hgroup {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline
+}
+body {
+	color: #666;
+	font: 12px/18px "\5FAE\8F6F\96C5\9ED1", Arial, sans-serif, "\65B0\5B8B\4F53";
+	background: #f2f2f2;
+	color: #333;
+	background: url(http://www.qiyipic.com/common/fix/campusRecruitment2014_images/body_bg.png);
+	min-width: 1000px
+}
+article, aside, dialog, footer, header, section, footer, nav, figure, hgroup {
+	display: block
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-weight: normal
+}
+ul, li {
+	list-style: none
+}
+img, iframe {
+	border: 0
+}
+em, strong {
+	font-style: normal;
+	font-weight: normal
+}
+sup, sub {
+	vertical-align: baseline
+}
+a {
+	color: #333;
+	text-decoration: none;
+	outline: 0
+}
+a:hover {
+	color: #518900;
+	text-decoration: underline
+}
+button, input, select, textarea {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: middle
+}
+select, input, img {
+	vertical-align: middle
+}
+button {
+	cursor: pointer
+}
+textarea {
+	resize: none;
+	overflow-y: auto
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+.clearfix:after {
+	content: '\0020';
+	display: block;
+	height: 0;
+	clear: both;
+	font-size: 0;
+	visibility: hidden
+}
+.clearfix {
+	*zoom: 1
+}
+.arial {
+	font-family: arial
+}
+.c {
+	font-size: 0;
+	line-height: 0;
+	clear: both;
+	overflow: hidden
+}
+.fl {
+	float: left
+}
+.fr {
+	float: right
+}
+.mb10 {
+	margin-bottom: 10px
+}
+.mb6 {
+	margin-bottom: 6px
+}
+.tc {
+	text-align: center
+}
+.tr {
+	text-align: right
+}
+.cb {
+	clear: both
+}
+.c66 {
+	color: #666 !important
+}
+.c99 {
+	color: #999 !important
+}
+.c00 {
+	color: #000 !important
+}
+.cf00 {
+	color: #f00 !important
+}
+.green, .c5189 {
+	color: #518900 !important
+}
+.orange {
+	color: #ff7800 !important
+}
+.f12 {
+	font-size: 12px !important
+}
+.f14 {
+	font-size: 14px !important
+}
+.lineHeight22 {
+	line-height: 22px
+}
+.s_body {
+	margin: 0 auto
+}
+.s_main {
+	width: 980px;
+	position: relative
+}
+.lineHeight21 {
+	line-height: 21px
+}
+.hide_text {
+	font: 0/0 a;
+	color: transparent;
+	text-shadow: none;
+	background-color: transparent;
+	border: 0
+}
+.inlineBlock {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1
+}
+.po-relative {
+	position: relative
+}
+.po-absolute {
+	position: absolute
+}
+.mt15 {
+	margin-top: 15px
+}
+.mt30 {
+	margin-top: 30px
+}
+.mb20 {
+	margin-bottom: 20px
+}
+.lh24 {
+	line-height: 24px
+}
+pre {
+	font: 14px/28px "\5FAE\8F6F\96C5\9ED1", Arial, sans-serif, "\65B0\5B8B\4F53";
+	white-space: pre;
+	white-space: pre-wrap;
+	word-wrap: break-word
+}
+.flod {
+	position: absolute;
+	top: 0;
+	right: 0;
+	cursor:pointer;
+}
+.arrow_down2 {
+	background: url("../../company/img/arrow_play.png") no-repeat right -138px;
+	padding-right: 12px
+}
+.arrow_up2 {
+	background: url("../../company/img/arrow_play.png") no-repeat right -102px;
+	padding-right: 12px
+}
+.arrow_up2:hover, a:hover .arrow_up2 {
+	background-position: right -203px;
+	text-decoration: none
+}
+.arrow_down2:hover, a:hover .arrow_down2 {
+	background-position: right -171px;
+	text-decoration: none
+}
+.cutLine {
+	overflow: hidden;
+	width: 100%;
+	height: 1px;
+	margin: 30px 0;
+	background-color: #d8dae0;
+	border-bottom: 1px solid #fff
+}
+.btn-green {
+	display: inline-block;
+	width: 112px;
+	height: 35px;
+	background: url(../images/btn_green.png) no-repeat;
+	line-height: 35px;
+	color: #fff;
+	font-size: 16px;
+	text-align: center
+}
+.btn-green:hover {
+	text-decoration: none;
+	color: #fff
+}
+.mod_bd {
+	width: 1000px;
+	margin: 30px auto 0 auto
+}
+.mod_ft {
+	padding-bottom: 20px;
+	color: #666;
+	text-align: center
+}
+.page {
+	margin-top: 20px;
+	text-align: right;
+	height: 24px;
+	zoom: normal
+}
+.page a {
+	display: inline-block;
+	width: 26px;
+	height: 22px;
+	line-height: 22px;
+	background: #fff;
+	border: 1px solid #e3e3e3;
+	text-align: center
+}
+.page a.a1 {
+	background: url(../images/titleBg.png) 0 -55px no-repeat;
+	width: 56px
+}
+.page a:hover {
+	background: #f1f1f1;
+	color: #000;
+	text-decoration: none
+}
+.page .curPage, .page .curPage:hover {
+	display: inline-block;
+	width: 26px;
+	height: 22px;
+	line-height: 22px;
+	background: #72a10e;
+	border: 1px solid #72a10e;
+	color: #fff;
+	text-align: center
+}
+.page .noPage, .page .noPage:hover {
+	display: inline-block;
+	width: 56px;
+	height: 22px;
+	line-height: 22px;
+	background: url(../images/titleBg.png) 0 -55px repeat-x;
+	border: 1px solid #e3e3e3;
+	text-align: center;
+	color: #a4a4a4
+}
+.mod_hd {
+	height: 80px;
+	background-color: orange;
+	-webkit-box-shadow: 0 4px 6px rgba(219,209,209,.75);
+	-moz-box-shadow: 0 4px 6px rgba(219,209,209,.75);
+	box-shadow: 0 4px 6px rgba(219,209,209,.75)
+}
+.mod_nav {
+	position: relative;
+	width: 1000px;
+	height: 80px;
+	margin: 0 auto
+}
+.mod_nav .logo {
+	position: absolute;
+	width: 172px;
+	height: 57px;
+	left: 0;
+	top: 12px;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=scale,src="http://www.qiyipic.com/common/fix/campusRecruitment2014_images/logo.png");
+	_background: 0
+}
+.mod_nav .mod_nav_sub {
+	position: absolute;
+	top: 0;
+	left: 200px;
+	z-index: 2
+}
+.mod_nav .mod_nav_sub a {
+	display: inline;
+	float: left;
+	width: 148px;
+	height: 80px;
+	line-height: 80px;
+	font-size: 18px;
+	text-align: center;
+	color: #fff;
+	text-decoration: none
+}
+.mod_nav .mod_nav_sub a:hover, .mod_nav .mod_nav_sub a.select {
+	text-decoration: none;
+	background-color: #FF9000;
+}
+.mod_nav .selected {
+	position: absolute;
+	top: 0;
+	left: 200px;
+	width: 148px;
+	height: 80px;
+	background: #598508;
+	z-index: 1;
+	-moz-transition: all .2s ease-out;
+	-webkit-transition: all .2s ease-out;
+	-o-transition: all .2s ease-out;
+	-ms-transition: all .2s ease-out;
+	transition: all .2s ease-out
+}
+.banner {
+	margin: 0 0 50px 0
+}
+.mainWrap {
+	position: relative
+}
+.mainWrap h1 {
+	color: orange;
+	font-size: 16px
+}
+.process_list {
+	text-align: justify;
+	text-justify: inter-ideograph
+}
+.process_list span {
+	display: inline-block;
+	width: 315px;
+	height: 150px;
+	margin: 20px 0 10px 0;
+	border: 1px solid #b9ce8e;
+	border-top-width: 2px;
+	background-color: #fff;
+	vertical-align: top
+}
+.process_list .justify {
+	overflow: hidden;
+	width: 100%;
+	height: 0;
+	border: 0;
+	margin: 0;
+	line-height: 0
+}
+.process_list_collageName {
+	height: 38px;
+	background-color: #faf8f8;
+	line-height: 38px;
+	font-size: 16px;
+	text-align: center
+}
+.process_list_info {
+	padding: 22px 0 0 20px
+}
+.process_list_info p {
+	margin-bottom: 6px
+}
+.icon-help {
+	float: left;
+	display: inline-block;
+	width: 38px;
+	height: 38px;
+	background: url(../images/icon_help.png) no-repeat;
+	vertical-align: top;
+	margin-right: 15px
+}
+.mod_media, .mod_media_bd {
+	overflow: hidden;
+	*zoom: 1
+}
+.mod_media_bd h2 {
+	font-size: 14px;
+	margin: 10px 0;
+	cursor: pointer
+}
+.mod_media_bd h2.selected {
+	color: #518900
+}
+.mod_media_bd p {
+	height: 24px;
+	line-height: 24px
+}
+.mod_wrap {
+	padding: 30px;
+	border: 1px solid #dfdfdf;
+	margin-top: 20px;
+	background-color: #fff
+}
+.position_list li {
+	margin-bottom: 10px
+}
+.videoWrap {
+	overflow: hidden;
+	position: relative;
+	width: 1000px;
+	height: 450px;
+	margin-top: 30px
+}
+.videoWrap ul {
+	overflow: hidden;
+	position: relative;
+	width: 3000px;
+	height: 450px
+}
+.videoWrap ul li {
+	display: inline;
+	float: left;
+	width: 1000px;
+	height: 450px;
+	cursor: pointer
+}
+.videoControl {
+	text-align: center;
+	margin: 10px 0
+}
+.videoControl li {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	cursor: pointer;
+	width: 13px;
+	height: 13px;
+	margin: 0 5px;
+	background: url(../images/videoControl_normal.png) no-repeat;
+	vertical-align: middle
+}
+.videoControl .selected {
+	background: url(../images/videoControl_selected.png) no-repeat
+}
+.aboutQiyi {
+	margin-top: 20px
+}
+.aboutQiyi p {
+	font-size: 14px;
+	line-height: 26px;
+	margin-bottom: 15px;
+	text-indent: 2em
+}
+.address {
+	height: 42px;
+	line-height: 42px;
+	border-bottom: 1px dashed #d4d4d4;
+	font-size: 14px
+}
+.address span {
+	display: inline-block;
+	vertical-align: middle
+}
+.noborder {
+	border: 0
+}
+.w130 {
+	width: 130px
+}
+.w470 {
+	width: 470px
+}
+.icon-home {
+	width: 16px;
+	height: 16px;
+	background: url(../images/icon-home.png) no-repeat;
+	margin-right: 10px
+}
+.salary {
+	display: inline;
+	float: left;
+	width: 185px;
+	height: 245px;
+	padding: 25px;
+	margin-top: 20px;
+	margin-right: 18px;
+	color: #fff
+}
+.salary h2 {
+	font-size: 22px;
+	margin-bottom: 25px
+}
+.salary ul li {
+	font-size: 14px;
+	margin-bottom: 15px
+}
+.salary-type-one {
+	background-color: #89aa45
+}
+.salary-type-two {
+	background-color: #e17350
+}
+.salary-type-three {
+	background-color: #5aa0a6
+}
+.salary-type-four {
+	background-color: #e3b729;
+	margin-right: 0
+}
+.companyEnt {
+	overflow: hidden;
+	position: relative;
+	width: 1000px;
+	height: 176px;
+	margin-top: 20px
+}
+.companyEnt ul {
+	overflow: hidden;
+	position: relative;
+	height: 176px;
+	width: 3000px
+}
+.companyEnt ul li {
+	display: inline;
+	float: left;
+	width: 316px;
+	height: 176px;
+	margin-right: 26px;
+	position: relative
+}
+.companyEnt ul li h3 {
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#66000000',endColorstr='#66000000');
+	background: rgba(0,0,0,.3);
+	width: 310px;
+	height: 30px;
+	line-height: 30px;
+	color: #fff;
+	position: absolute;
+	bottom: 15px;
+	left: 3px;
+	text-indent: 5px
+}
+.companyEnt ul li img {
+	width: 310px;
+	height: 170px;
+	border: 3px solid #86ca2c
+}
+.companyBtn_left {
+	position: absolute;
+	width: 50px;
+	height: 80px;
+	margin-top: -40px;
+	background: url(../images/btn-left.png) no-repeat;
+	left: 0;
+	top: 50%;
+	z-index: 5;
+	_background: 0;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.qiyipic.com/common/fix/campusRecruitment2014_images/btn-left.png')
+}
+.companyBtn_right {
+	position: absolute;
+	width: 50px;
+	height: 80px;
+	margin-top: -40px;
+	background: url(http://www.qiyipic.com/common/fix/campusRecruitment2014_images/btn-right.png) no-repeat;
+	right: 0;
+	top: 50%;
+	z-index: 5;
+	_background: 0;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.qiyipic.com/common/fix/campusRecruitment2014_images/btn-right.png')
+}
+.padplay0108 {
+	position: relative;
+	background: #000
+}
+.padplay0108 .ctrl-layer {
+	position: absolute;
+	width: 100%;
+	height: 100%
+}
+.padplay0108 .ctrl-layer .video-controlbox {
+	width: 100%;
+	height: 53px;
+	background: #000;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.3)
+}
+.padplay0108 .ctrl-layer .ctrl-top {
+	height: 1px;
+	border-bottom: 1px solid #555;
+	overflow: hidden
+}
+.padplay0108 .ctrl-layer .ctrl-bot {
+	clear: both
+}
+.padplay0108 .ctrl-layer .ctrl-l {
+	float: left;
+	width: 170px;
+	margin-left: -100%
+}
+.padplay0108 .ctrl-layer .ctrl-m {
+	float: left;
+	width: 100%
+}
+.padplay0108 .ctrl-layer .ctrl-m .ctrl-c {
+	margin: 0 220px 0 170px
+}
+.padplay0108 .ctrl-layer .ctrl-r {
+	float: left;
+	width: 202px;
+	margin-left: -202px
+}
+.padplay0108 .ctrl-layer .ctrl-r .ctrl-time {
+	color: #999;
+	margin-right: 10px
+}
+.padplay0108 .ctrl-layer .ctrl-btn {
+	width: 27px;
+	height: 27px;
+	padding: 11px 20px 0 20px
+}
+.padplay0108 .ctrl-layer .ctrl-time {
+	height: 16px;
+	margin-top: 15px;
+	text-align: center;
+	font: normal 14px/16px 'arial';
+	color: #fff
+}
+.padplay0108 .ctrl-layer .ctrl-l .ctrl-btn, .padplay0108 .ctrl-layer .ctrl-l .ctrl-time {
+	float: left
+}
+.padplay0108 .ctrl-layer .ctrl-r .ctrl-btn, .padplay0108 .ctrl-layer .ctrl-r .ctrl-time {
+	float: right
+}
+.padplay0108 .ctrl-layer a.ctrlstop, .padplay0108 .ctrl-layer a.ctrlstop-a, .padplay0108 .ctrl-layer a.ctrlplay, .padplay0108 .ctrl-layer a.ctrlplay-a, .padplay0108 .padplay0108 .ctrl-layer a.ctrlwait, .padplay0108 .ctrl-layer a.ctrlwait-a, .padplay0108 .ctrl-layer a.ctrlscreen, .padplay0108 .ctrl-layer a.ctrlscreen-a, .padplay0108 .ctrl-layer a.ctrlEditscreen, .padplay0108 .ctrl-layer a.ctrlOpen, .padplay0108 .ctrl-layer a.ctrlOpen-a, .padplay0108 .ctrl-layer a.ctrlClose, .padplay0108 .ctrl-layer a.ctrlClose-a {
+	display: block;
+	width: 27px;
+	height: 27px;
+	background: transparent url(http://www.qiyipic.com/common/fix/pad_images/toolicon2.png) no-repeat 1px 1px
+}
+.padplay0108 .ctrl-layer a.ctrlplay {
+	background-position: 2px -170px
+}
+.padplay0108 .ctrl-layer a.ctrlwait {
+	background-position: 1px -85px
+}
+.padplay0108 .ctrl-layer a.ctrlscreen {
+	background-position: 0 -257px
+}
+.padplay0108 .ctrl-layer a.ctrlstop:active, .padplay0108 .ctrl-layer a.ctrlstop-a {
+	background-position: 1px -42px
+}
+.padplay0108 .ctrl-layer a.ctrlplay:active, .padplay0108 .ctrl-layer a.ctrlplay-a {
+	background-position: 2px -213px
+}
+.padplay0108 .ctrl-layer a.ctrlwait:active, .padplay0108 .ctrl-layer a.ctrlwait-a {
+	background-position: 1px -128px
+}
+.padplay0108 .ctrl-layer a.ctrlscreen:active, .padplay0108 .ctrl-layer a.ctrlscreen-a {
+	background-position: 0 -300px
+}
+.padplay0108 .ctrl-layer .ctrl-split {
+	float: left;
+	width: 1px;
+	height: 50px;
+	margin-right: 20px;
+	background: transparent url(../images/tooly.png) no-repeat 0 -2px
+}
+.padplay0108 .ctrl-layer .ctrl-scheduleBox {
+	position: relative;
+	z-index: 0
+}
+.padplay0108 .ctrl-layer .ctrl-scrollbg, .padplay0108 .ctrl-layer .ctrl-scrollbtn, .padplay0108 .ctrl-layer .ctrl-scrollbtnWrap, .padplay0108 .ctrl-layer .ctrl-huibg {
+	z-index: 5;
+	top: 18px;
+	width: 100%;
+	height: 10px;
+	border-radius: 3px;
+	font-size: 0;
+	line-height: 0
+}
+.padplay0108 .ctrl-layer .ctrl-scrollbg {
+	position: relative;
+	background-color: #1b1b1b;
+	box-shadow: inset 2px 2px 2px rgba(30,28,28,0.3)
+}
+.padplay0108 .ctrl-layer .ctrl-scrollbtn {
+	position: absolute;
+	z-index: 10;
+	background-color: #86ae00;
+	box-shadow: inset 1px 1px 1px rgba(222,225,0,0.5);
+	width: 0;
+	left: 0;
+	top: 0
+}
+.padplay0108 .ctrl-layer .ctrl-circle {
+	position: absolute;
+	right: -14px;
+	top: -7px;
+	display: block;
+	width: 26px;
+	height: 26px;
+	background: url(../images/toolqiu.png) no-repeat 0 -364px;
+	overflow: hidden;
+	-webkit-transform: translate3d(0,0,0)
+}
+.padplay0108 .ctrl-layer .ctrl-layer {
+	position: absolute;
+	z-index: 0;
+	width: 100%
+}
+.padplay0108 .ctrl-layer .ctrl-layerhalf {
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	left: 50%;
+	width: 120px;
+	height: 120px
+}
+.padplay0108 .ctrl-layer .ctrl-layerhalf .layer-btn, .padplay0108 .ctrl-layer .ctrl-layerhalf .layer-load {
+	position: absolute;
+	left: -60px;
+	top: -60px;
+	width: 120px;
+	height: 120px
+}
+.padplay0108 .ctrl-layer .padplay0108 .ctrl-layerhalf .layer-load {
+	top: -15px;
+	height: 30px;
+	text-align: center;
+	color: #84b83d;
+	font: normal 14px/30px '\5FAE\8F6F\96C5\9ED1'
+}
+.padplay0108 .ctrl-layer a.ctrlbigplay, .padplay0108 .ctrl-layer a.ctrlbigplay-a {
+	display: block;
+	width: 120px;
+	height: 120px;
+	background: transparent url(http://www.qiyipic.com/common/fix/pad_images/toolqiu.png) no-repeat 0 -30px
+}
+.padplay0108 .ctrl-layer a.ctrlbigplay:active, .padplay0108 .ctrl-layer a.ctrlbigplay-a {
+	background-position: 0 -150px
+}
+.padplay0108 .ctrl-layer .layer-load img {
+	margin-right: 5px;
+	margin-top: -1px
+}
+.padplay0108 .ctrl-layer a.ctrlOpen {
+	background-position: 1px -478px
+}
+.padplay0108 .ctrl-layer a.ctrlOpen:active, .padplay0108 .ctrl-layer a.ctrlOpen-a {
+	background-position: 1px -552px
+}
+.padplay0108 .ctrl-layer a.ctrlClose {
+	background-position: 1px -620px
+}
+.padplay0108 .ctrl-layer a.ctrlClose:active, .padplay0108 .ctrl-layer a.ctrlClose-a {
+	background-position: 1px -700px
+}
+.padplay0108 .ctrl-layer a.ctrlEditscreen {
+	background-position: 1px -350px
+}
+.padplay0108 .ctrl-layer a.ctrlEditscreen:active, .padplay0108 .ctrl-layer a.ctrlEditscreen-a {
+	background-position: 1px -401px
+}
+.padplay0108 .ctrl-layer .ctrl-huibg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 9;
+	width: 100%
+}
+.padplay0108 .ctrl-layer {
+	position: absolute;
+	width: 100%
+}
+.padplay0108 .ctrl-layer .video-controlbox {
+	position: absolute;
+	bottom: 0;
+	width: 100%
+}
+.padplay0108 .ctrl-layer .no_ctrlOpen .ctrl-m .ctrl-c {
+	margin: 0 155px 0 170px
+}
+.freeTimeBar {
+	position: absolute;
+	left: 5px;
+	bottom: 55px
+}
+.freeTimeBar p {
+	color: #fff;
+	font-size: 14px
+}
+.freeTimeBar p em {
+	color: #518900;
+	padding: 0 2px
+}
+.freeTimeBar p a {
+	color: #518900;
+	text-decoration: underline;
+	margin-left: 8px
+}
+.padErrorWrap {
+	position: relative;
+	width: 505px;
+	height: 360px;
+	margin: 0 auto;
+	top: 150px
+}
+.errorTip {
+	padding: 0 0 12px 20px
+}
+.errorTitle {
+	position: relative;
+	display: inline-block;
+	font-size: 20px;
+	color: #fff;
+	top: -15px;
+	left: -90px
+}
+.errorMsg, .errorTip, .errorOpt {
+	text-align: center
+}
+.errorOpt :first-child {
+	margin-right: 55px
+}
+.btn-backToHome, .btn-refresh {
+	display: inline-block;
+	width: 112px;
+	height: 34px;
+	line-height: 34px;
+	text-indent: 25px;
+	color: #fff;
+	font-size: 16px
+}
+.btn-backToHome {
+	background: url(http://www.qiyipic.com/common/fix/pad_images/btn-backToHome.png) no-repeat
+}
+.btn-refresh {
+	background: url(http://www.qiyipic.com/common/fix/pad_images/btn-refresh.png) no-repeat
+}
+.btn-backToHome:hover, .btn-refresh:hover {
+	text-decoration: none;
+	color: #fff
+}
+.errorInfo {
+	color: #fff
+}
+.errorInfo a {
+	color: #fff;
+	text-decoration: underline
+}
+.errorMsg {
+	padding: 35px 0
+}
+.errorMsg :first-child {
+	margin-bottom: 22px
+}
+.errorInfo a:hover {
+	text-decoration: none;
+	color: #fff;
+	text-decoration: underline
+}
+.wrapperOuter {
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden
+}
+.page-home {
+	width: 100%;
+	height: 1080px;
+	background: #000 url(http://www.qiyipic.com/common/fix/campusRecruitment2014_images/campusRecruitment_bg01.jpg) no-repeat center top
+}
+.page-about {
+	width: 100%;
+	height: 1080px;
+	background: #000 url(http://www.qiyipic.com/common/fix/campusRecruitment2014_images/campusRecruitment_bg02.png) no-repeat center top
+}
+.page-recruitment {
+	width: 100%;
+	height: 1080px;
+	background: #000 url(http://www.qiyipic.com/common/fix/campusRecruitment2014_images/campusRecruitment_bg03.png) no-repeat center top
+}
+.page-process {
+	width: 100%;
+	height: 1080px;
+	background: #000 url(http://www.qiyipic.com/common/fix/campusRecruitment2014_images/campusRecruitment_bg04.png) no-repeat center top
+}
+.page-help {
+	width: 100%;
+	height: 1080px;
+	background: #000 url(http://www.qiyipic.com/common/fix/campusRecruitment2014_images/campusRecruitment_bg05.png) no-repeat center top
+}
+.page-home h1 {
+	display: none
+}
+.topWrapper {
+	width: 1000px;
+	height: 56px;
+	padding: 30px 0
+}
+.logo-index {
+	width: 220px;
+	float: left
+}
+.logo-index a {
+	display: block;
+	width: 172px;
+	height: 56px;
+	text-indent: -9999px;
+	overflow: hidden;
+	background: url(http://www.qiyipic.com/common/fix/campusRecruitment2014_images/logo-index.png) no-repeat 0 0;
+	_background: 0;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.qiyipic.com/common/fix/campusRecruitment2014_images/logo-index.png')
+}
+.topNav {
+	float: right
+}
+.topNav li {
+	width: 155px;
+	float: left;
+	text-align: right
+}
+.topNav li a {
+	color: #fff;
+	font-size: 18px;
+	display: inline-block;
+	width: 150px;
+	height: 56px;
+	line-height: 56px;
+	overflow: hidden;
+	text-align: center
+}
+.topNav li a:hover {
+	text-decoration: none
+}
+.topNav li.selected a {
+	color: #518900;
+	background: url(http://www.qiyipic.com/common/fix/campusRecruitment2014_images/btn-white.png) no-repeat 0 0;
+	_background: 0;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.qiyipic.com/common/fix/campusRecruitment2014_images/btn-white.png')
+}
+.topNav li a.topNav_more {
+	width: 97px;
+	height: 36px;
+	line-height: 37px;
+	margin-top: 10px;
+	padding-right: 30px;
+	background: url(http://www.qiyipic.com/common/fix/campusRecruitment2014_images/btn-more.png) no-repeat 0 0;
+	_background: 0;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.qiyipic.com/common/fix/campusRecruitment2014_images/btn-more.png')
+}
+.video_content {
+	background: #000;
+	width: 1000px;
+	height: 447px;
+	overflow: hidden;
+	position: relative
+}
+.video_btns {
+	text-align: center;
+	font-size: 0
+}
+.video_btns li {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	vertical-align: top;
+	width: 25px;
+	height: 25px;
+	margin: 10px
+}
+.video_btns li a {
+	display: block;
+	width: 25px;
+	height: 25px;
+	background: url(http://www.qiyipic.com/common/fix/campusRecruitment2014_images/videoPoint.png) no-repeat 0 0;
+	_background: 0;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.qiyipic.com/common/fix/campusRecruitment2014_images/videoPoint.png')
+}
+.video_btns li.selected a {
+	background: url(http://www.qiyipic.com/common/fix/campusRecruitment2014_images/videoPoint-select.png) no-repeat 0 0;
+	_background: 0;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.qiyipic.com/common/fix/campusRecruitment2014_images/videoPoint-select.png')
+}
+.aboutiqiyi {
+	color: #fff;
+	font-size: 14px;
+	line-height: 23px
+}
+.aboutiqiyi a {
+	color: #fff;
+	text-decoration: underline
+}
+.aboutiqiyi h2 {
+	padding-bottom: 20px
+}
+.page-about .companyEnt {
+	margin-top: 40px
+}
+.recruitmentList {
+	margin-right: -26px
+}
+.recruitmentList li {
+	width: 296px;
+	height: 115px;
+	background: #fff;
+	padding: 25px 0 0 20px;
+	margin: 0 26px 30px 0;
+	float: left;
+	-webkit-box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+	box-shadow: 0 2px 3px rgba(0,0,0,0.2)
+}
+.recruitmentList li a {
+	display: block;
+	height: 35px;
+	padding: 53px 0 0 105px;
+	font-size: 16px;
+	color: #333;
+	text-decoration: none;
+	background: url(http://www.qiyipic.com/common/fix/campusRecruitment2014_images/index_icons.png) no-repeat -128px 0
+}
+.recruitmentList li a.link-rd {
+	background-position: -128px 0
+}
+.recruitmentList li a.link-pm {
+	background-position: -128px -124px
+}
+.recruitmentList li a.link-ce {
+	background-position: -128px -241px
+}
+.recruitmentList li a.link-ad {
+	background-position: -128px -365px
+}
+.recruitmentList li a.link-qa {
+	background-position: -128px -497px
+}
+.recruitmentList li a.link-ae {
+	background-position: -128px -629px
+}
+.recruitmentList li a.link-host {
+	background-position: -71px -751px
+}
+.wrapperInner {
+	background: #f4f4f4;
+	padding: 20px;
+	-webkit-box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+	box-shadow: 0 10px 10px rgba(0,0,0,0.2)
+}
+.wrapperInner-process {
+	padding: 10px 29px
+}
+.wrapperInner-process .process_list span {
+	width: 288px;
+	height: 132px;
+	border: 0;
+	background: 0
+}
+.wrapperInner-process .process_list_collageName {
+	background: #80b01d;
+	color: #fff
+}
+.wrapperInner-process .process_list_info {
+	border: 1px solid #e1e1e1;
+	border-top: 0;
+	padding: 15px 0 0 20px;
+	background: #fff;
+	height: 85px
+}
+.wrapperInner-process .process_list .justify {
+	overflow: hidden;
+	width: 100%;
+	height: 0;
+	border: 0;
+	margin: 0;
+	line-height: 0
+}
+.listHelp li {
+	height: 68px;
+	line-height: 68px;
+	border-bottom: 1px dashed #d9d9d9
+}
+.listHelp li a {
+	font-size: 14px
+}
+.listHelp li .icon-help {
+	margin-top: 15px
+}
+.listHelp li.listHelp_lastItem {
+	border: 0
+}
+.recruitment2014_code {
+	width: 145px;
+	text-align: center;
+	line-height: 50px;
+	padding-bottom: 30px
+}
+.footer-index {
+	padding-top: 30px;
+	height: 90px;
+	background: #000;
+	color: #fff;
+	text-align: center;
+	font-size: 14px
+}
+.vdoContent {
+	width: 980px;
+	margin: 0 auto
+}
+.resumeList, .mod_media_bd_content {
+	display:none;
+	overflow: hidden
+}
+.resumeList-selected {
+	height: auto
+}
+.help-pageTab li {
+	display: none
+}
+.help-pageTab li.selected {
+	display: block
+}
+.goTop {
+	position: fixed;
+	bottom: 100px;
+	right: 390px;
+	z-index: 10;
+	display: block;
+	width: 51px;
+	height: 51px;
+	background: url(http://www.qiyipic.com/common/fix/campusRecruitment2014_images/goTop.png) no-repeat 0 0;
+	display: none
+}
+.goTop:hover {
+	background-position: 0 -60px
+}
+.popup-news {
+	display: none;
+	position: absolute;
+	right: 0;
+	width: 178px;
+	background: #fff;
+	border: 3px solid #d3e0b9;
+	padding: 1px;
+	z-index: 10
+}
+.popup-news h3 {
+	height: 46px;
+	line-height: 46px;
+	color: #588107;
+	background: #f2f6ea;
+	font-size: 18px;
+	text-align: center;
+	position: relative
+}
+.dotline-bottom {
+	border-bottom: 1px dashed #d7e4c5
+}
+.popup-news_bd {
+	padding: 10px 10px 25px;
+	line-height: 24px
+}
+.popup-news_bd h4 {
+	font-size: 14px
+}
+.popup-news_bd p {
+	padding: 5px 0
+}
+.icon-close {
+	position: absolute;
+	background: url(http://www.qiyipic.com/common/fix/campusRecruitment2014_images/icon-close.png) no-repeat;
+	width: 13px;
+	height: 13px;
+	cursor: pointer;
+	right: 10px;
+	top: 17px
+}

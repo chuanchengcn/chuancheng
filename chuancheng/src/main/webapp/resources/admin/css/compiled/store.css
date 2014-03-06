@@ -1,0 +1,114 @@
+@CHARSET "UTF-8";
+.chooseStore {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #656D78;
+    font-size: 12px;
+}
+
+.chooseStore .up {
+    overflow: hidden;
+    padding: 10px 0;
+}
+.chooseStore .up .info {
+    float: left;
+    padding-top: 20px;
+    text-align: center;
+    width: 240px;
+}
+
+.chooseStore .up .info strong {
+    color: #434A54;
+    display: block;
+    font-size: 18px;
+    margin: 22px 0 10px;
+}
+
+.chooseStore .up .info p {
+    margin-bottom: 18px;
+}
+
+.chooseStore .up .step {
+    float: left;
+    position: relative;
+}
+
+.chooseStore .up .step ul {
+    padding: 0 0 20px;
+}
+
+.chooseStore .btm {
+    border-top: 1px solid #EDEDED;
+    overflow: hidden;
+    padding: 20px 0;
+}
+.chooseStore .btm a {
+    float: right;
+    height: 40px;
+    margin: 0 10px 0 20px;
+    width: 142px;
+}
+.chooseStore .btm a.btn-primary {
+    width: 144px;
+}
+
+.chooseStore .btm p {
+    float: right;
+    padding-top: 10px;
+}
+.chooseStore .up .step ul {
+    padding: 0 0 20px;
+}
+.chooseStore .up .step .title {
+    margin:10px;
+    padding: 0;
+}
+.chooseStore .up .step .title strong {
+    float: left;
+}
+.chooseStore .up .step .title strong label {
+    background: none repeat scroll 0 0 #99CC33;
+    color: #FFFFFF;
+    display: inline-block;
+    height: 20px;
+    margin-right: 6px;
+    text-align: center;
+    width: 20px;
+}
+.chooseStore .up .step .title a {
+    cursor: pointer;
+    float: right;
+}
+
+
+.chooseStore .up .step dd {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 3px solid #CCCCCC;
+    border-radius: 8px;
+    cursor: pointer;
+    float: left;
+    height: 115px;
+    margin: 0 10px 0 0;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 287px;
+}
+.chooseStore .up .step dd.selected {
+    background: none repeat scroll 0 0 #FFFBEA;
+    border: 3px solid #FFCB3E;
+    color: #974C19;
+}
+
+.chooseStore .up .step dd.big {
+    width: 434px;
+    margin-bottom: 20px;
+}
+
+
+.chooseStore .up .step dd strong {
+    display: block;
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    padding-top: 24px;
+}

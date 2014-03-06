@@ -1,0 +1,201 @@
+.footer {
+    margin-top: 20px;
+    overflow: hidden;
+    background-color: #F5F7FA;
+}
+.footer ul, .footer li, .footer dl, .footer dt, .footer dd, .footer a, .footer strong, .footer label, .footer em {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+.footer .footerup {
+	border-top: 4px solid #FF6F3D;
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+.footer .footercont {
+    background: none repeat scroll 0 0 #F5F7FA;
+}
+.footer .nums {
+    border-bottom: 1px solid #EDEDED;
+    color: #656D78;
+    font-size: 15px;
+    padding: 20px 0;
+}
+.footer .nums li {
+    float: left;
+    text-align: center;
+    width: 280px;
+}
+.footer .nums li span {
+    font-size: 42px;
+    margin-right: 5px;
+}
+.footer .nums li strong {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+}
+.footer .nums li strong label {
+    display: block;
+    text-align: left;
+}
+.footer .nums li.line {
+    background: none repeat scroll 0 0 #CCD0D9;
+    font-size: 0;
+    height: 38px;
+    width: 1px;
+}
+.footer .nums li a {
+    color: #656D78;
+    display: block;
+    text-decoration: none;
+}
+.footer .nums li a:hover {
+    color: #FF6F3D;
+}
+.footer .service {
+    color: #434A54;
+    font-size: 12px;
+    padding: 20px 0;
+}
+.footer .service a {
+    color: #434A54;
+    text-decoration: none;
+}
+.footer .service a:hover {
+    color: #FF6F3D;
+    background-position: 0;
+}
+.footer .service dl {
+    float: left;
+    padding-left: 4.4%;
+    width: 10%;
+}
+.footer .service dl dt {
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+.footer .service dl dd {
+    height: 24px;
+    line-height: 24px;
+}
+.footer .service dl dd.sina span {
+    margin-right: 2px;
+    vertical-align: -3px;
+}
+.footer .service dl dd.sina .icon-common-sina {
+}
+.footer .service dl dd.sina:hover .icon-common-sina {
+    background-position: -485px -2px;
+}
+.footer .service dl dd.kongjian span {
+    margin-right: 2px;
+    vertical-align: -3px;
+}
+.footer .service dl dd.kongjian .icon-common-kongjian {
+}
+.footer .service dl dd.kongjian:hover .icon-common-kongjian {
+    background-position: -485px -23px;
+}
+.footer .service dl dd.facebook span {
+    cursor: pointer;
+    margin-right: 1px;
+    vertical-align: -6px;
+}
+.footer .service dl dd.facebook .icon-common-weixin {
+}
+.footer .service dl dd.facebook:hover .icon-common-weixin {
+    background-position: -486px -51px;
+}
+.footer .service dl dd a {
+    cursor: pointer;
+    display: inline-block;
+    height: 24px;
+    line-height: 24px;
+}
+.footer .service .online {
+    float: left;
+    font-size: 12px;
+    margin-left: 20px;
+    width: 200px;
+}
+.footer .service .online ul {
+    text-align: right;
+}
+.footer .service .online ul .item1 {
+    font-size: 24px;
+    height: 24px;
+    line-height: 24px;
+    margin-bottom: 6px;
+    overflow: hidden;
+}
+.footer .service .online ul .item1 .icon-common-tel {
+    margin-right: 14px;
+    vertical-align: -4px;
+}
+.footer .service .online ul .item2 {
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 6px;
+}
+.footer .service .online ul .item3 {
+    text-align: left;
+}
+.footer .service .online ul .item3 a {
+    border-radius: 6px;
+    color: #FFFFFF;
+    display: block;
+    float: right;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    text-decoration: none;
+    width: 190px;
+}
+.footer .service .online ul .item3 a span {
+    margin-right: 8px;
+    vertical-align: middle;
+}
+.footer .info {
+    color: #434A54;
+    font-size: 12px;
+    line-height: 2;
+    padding: 20px 0 30px;
+    text-align: center;
+}
+.footer .info a {
+    color: #434A54;
+    margin: 0 5px;
+    text-decoration: none;
+}
+.footer .info a:hover {
+    color: #FF6F3D;
+}
+.footer .info em {
+    background: none repeat scroll 0 0 #CCD1D9;
+    display: inline-block;
+    height: 12px;
+    vertical-align: -2px;
+    width: 1px;
+}
+.footer .info p {
+    margin: 0;
+}
+.footer .info img {
+    display: block;
+    margin: 20px auto 0;
+    width: 388px;
+    
+}
+.footer .believe {
+    padding: 0 0 80px;
+    text-align: center;
+}
+.footer .believe a {
+    margin: 0 3px;
+}
+.footer .believe img {
+    border: 0 none;
+    height: 42px;
+}

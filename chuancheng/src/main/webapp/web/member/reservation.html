@@ -1,0 +1,193 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title> </title>
+		<!-- Date: 2013-12-10 -->
+		<link rel="stylesheet" type="text/css" href="../../resources/web/css/member/reservation.css" media="all"/>
+		<link rel="stylesheet" type="text/css" href="../../resources/web/css/bootstrap/bootstrap.css" media="all"/>
+		<link rel="stylesheet" type="text/css" href="../../resources/web/css/reset.css" media="all"/>
+		<link rel="stylesheet" type="text/css" href="../../resources/web/css/member/manhuaDate.1.0.css" media="all"/>
+		<style>
+			#btn_abc{width:120px;height:35px;border:none;background-image: -moz-linear-gradient(top, #8fa1ff, #0044cc);
+						background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #8fa1ff), color-stop(1, #0044cc));
+						filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#8fa1ff', endColorstr='#0044cc', GradientType='0');
+						border-radius: 7px;color:#fff;}
+		</style>
+	</head>
+	<body style='background-color:#F5F7FA;font-family: arial,"Hiragino Sans GB","Microsoft Yahei",sans-serif;'>
+		<div id="main-right">
+		<div id="m-r-top">
+        	<h3 id="title">预约服务</h3>
+   		</div>
+   		<div id='m-r-center'>
+   			<div id='choose'>
+   				<p class='p1'><span>step 1</span>选择鉴宝方式</p>
+   				<ul class='ul1' id='ul1'>
+	   				<li>
+	   					<dl>
+	   						<dd>离线鉴宝</dd>
+	   						<dt class='t2'><img src='../../resources/web/images/reservation/avatar2.jpg'/></dt>
+	   					</dl>
+	   				</li>
+	   				<li>
+	   					<dl>
+	   						<dd>在线鉴宝</dd>
+	   						<dt class='t2'><img src='../../resources/web/images/reservation/avatar2.jpg'/></dt>
+	   					</dl>
+	   				</li>
+	   			</ul>
+	   		<div class='clear'> </div>
+	   		<div id='xia'>
+	   			<a id="next" class="btn btn-primary">下一步</a>
+			</div>
+		</div>
+		<div class='clear'> </div>
+			<div id='address' style='display:none;'>
+				<p class='p1'><span>step 2</span>选择鉴宝地</p>
+				<ul class='ul2' id='ull'>
+					<li class='t2'>
+						<h3>首都鉴宝</h3> 
+					</li>
+					<li class='t2'>
+						<h3>天津鉴宝</h3>
+					</li>
+				</ul>
+				<div class='clear'> </div>
+				<br/>
+				<p class='p1'><span>step 3</span>选择鉴宝time</p>
+				<ul class='ul3'>
+					<li><input id="input1" style='height:35px;margin-bottom:0;' class="Wdate" type="text"/></li>
+				</ul>
+				
+				<div class='clear'> </div>
+				<div id='time' style='display:none;'>
+					<p class='p1'><span>step 4</span>选择鉴宝time</p>
+					<ul class='ul4'>
+						<li class='t2'>
+							<h3>10:00-11:00<span> </span></h3> 
+						</li>
+						<li class='t2'>
+							<h3>11:00-12:00<span> </span></h3>
+						</li>
+						<li class='t2'>
+							<h3>13:00-14:00<span> </span></h3>
+						</li>
+						<li class='t2'>
+							<h3>14:00-15:00<span> </span></h3>
+						</li>
+						<li class='t2'>
+							<h3>15:00-16:00<span> </span></h3>
+						</li>
+						<li class='t2'>
+							<h3>16:00-17:00<span> </span></h3>
+						</li>
+					</ul>
+				</div>
+				<div id='xia2'>
+	   				<a id="next2" class="btn btn-primary">下一步</a>
+				</div>
+				<div class='clear'> </div>
+			</div>
+			<div id='zaixian' style='display:none;'>
+				<div id='pic'>
+					<div id="well" style='margin-bottom:60px;'>
+						<div style="margin:5px;text-align:center;">
+							<p> </p><h2>上传图片</h2><p> </p>
+							<p class="f14 gray">快来上传装修毕业照，或者设计作品，获得百万房主朋友的更多关注！</p>
+						</div>
+					</div>
+					<p>
+						
+		           	<div class="pull-right" style='margin-top:-30px;margin-right:358px;'>
+				        <div id="__upload_btn" style='height:32px;margin-bottom:10px;'>
+				        	 <input type="file" id="btn_file" name="btn_file" value="test" style="display:none"> 
+ 							 <input type="button" name="btn_abc" id='btn_abc' value="上传本地图片" onclick="F_Open_dialog()"> 
+				             
+				             <a id="uploadfiles" href="javascript:;" class="btn btn-primary disabled" style="display:none;"><i class="icon-upload icon-white"> </i> 上传图片</a>
+						</div>
+						<script>
+							function F_Open_dialog() 
+								{ 
+			      			  document.getElementById("btn_file").click(); 
+								} 
+						</script>
+			        </div>
+					</p>
+					
+				</div>
+			</div>
+		</div>
+		<div id='essentialInf' style='display:none;'>
+			 <p class='p1'><span>step 5</span>您的个人信息</p>
+				<form id="myform" style='margin-left:30px;margin-top:20px;'>
+					用户名：　<input type="text" name="user" id='inp1' class="required"/><br>
+					Email：　 <input type="text" name="email" id='inp2' class="required email"/><br>
+					手机号码：<input type="text" name="mobile" id='inp3' class="ismobile"/><br>
+					</form>
+        		<div id='xia2'>
+        	
+	   				<a id="next3" class="btn btn-primary">提交预约</a>
+				</div>
+	</div>
+	
+	</div>
+	<div class='clear'></div>
+		
+	
+		<div id='preOrder'style='display:none;'>
+			<h2>预约成功！</h2>
+			<ul id='ulInfor'>
+				<li>预约号：<span></span></li>
+				<li>预约人：<span></span></li>
+				<li>联系电话：<span></span></li>
+				<li>预约时间：<span></span></li>
+				<li>预约网点：<span></span></li>
+				<li>温馨提示：为了节省您的时间，请您准时到店。</li>
+			</ul>
+			<div id='perPic'>
+				<img src='../../resources/web/images/reservation/u=2079528219,2763639054&fm=23&gp=0.jpg'/>
+			</div>
+			<div id='address2' style='display:none'>
+				<h3>首都鉴宝</h3>
+				<div id='xinxi'>
+					<p>	电话：135986905</p>	
+						<p>地址：丹阳大厦</p>	
+						<p>交通：10号十里河站</p>	
+				</div>
+			</div>
+			<div id='address3' style='display:none'>
+				<h3>天津鉴宝</h3>
+				<div id='xinxi'>
+				<p>	电话：2322452454</p>	
+					<p>	地址：丹阳大厦</p>	
+					<p>	交通：10号十里河站</p>	
+				</div>
+			</div>
+		</div>
+		
+<script type="text/javascript" src="../../resources/web/js/jquery.js"></script>
+<script type="text/javascript" src="../../resources/web/js/ajax.js"></script>
+<script type="text/javascript" src="../../resources/web/js/json2.js"></script>
+<script type="text/javascript" src="../../resources/web/js/reservation/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="../../resources/web/js/My97DatePicker/WdatePicker.js"></script>
+<script type="text/javascript" src="../../resources/web/js/reservation/jquery-1.4.min.js"></script>
+<script type="text/javascript" src="../../resources/web/js/reservation/jquery.validate.js"></script>
+<script type="text/javascript" src="../../resources/web/js/reservation/jquery.validate.messages_cn.js"></script>
+<script type="text/javascript" src="../../resources/web/js/reservation/jquery.validatePlugin.js"></script>
+<script type="text/javascript" src="../../resources/web/js/reservation/reservation.js"></script>
+
+<script type="text/javascript">
+           document.getElementById("input1").onclick=function(){
+               // WdatePicker({dateFmt: 'yyyy年MM月dd日', doubleCalendar:true, minDate:'%y-%M-{%d+1}', maxDate: '%y-%M-{%d+7}'})
+                WdatePicker();
+            }
+        
+        $(function(){
+			$("#myform").validate({ debug:true,success: function (label) {  
+            label.html("<span style=\"color:green\">填写正确！</span>").addClass("success");  
+        }  });
+		});
+</script>
+	</body>
+</html>

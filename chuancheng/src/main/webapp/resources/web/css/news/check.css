@@ -1,0 +1,257 @@
+#check{
+	background-color: white;
+}
+#jcImg {
+	width: 625px;
+	padding: 5px;
+	border: 1px solid #ccc;
+	background: #f2f2f2;
+	position: relative;
+	overflow: hidden;
+}
+
+#jcImg ul {
+	width: 625px;
+	height: 350px;
+	overflow: hidden;
+	position: relative;
+	z-index: 0;
+}
+
+#jcImg ul li {
+	display: none;
+	width: 625px;
+	height: 350px;
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 0;
+}
+
+#smallImg {
+	height: 65px;
+	overflow: hidden;
+	margin: 5px auto 0;
+	position: relative;
+	width: 590px;
+}
+
+#jcImg dl {
+	width: 9999%;
+	position: relative;
+}
+
+#jcImg dd {
+	float: left;
+	width: 115px;
+	height: 64px;
+	overflow: hidden;
+	margin-right: 4px;
+	_display: inline;
+	cursor: pointer;
+	position: relative;
+}
+
+#jcImg dd div {
+	position: absolute;
+	background: #000;
+	height: 64px;
+	width: 200px;
+}
+
+#jcImg b {
+	width: 14px;
+	height: 64px;
+	position: absolute;
+	top: 360px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#jcImg #prev {
+	float: left;
+	left: 4px;
+	margin-top: 25px;
+	background: url("../images/scrolllf.gif") no-repeat;
+}
+
+#jcImg #next {
+	float: right;
+	right: 4px;
+	margin-top: 25px;
+	background: url("../images/scrollrt.gif") no-repeat;
+}
+
+#imgText {
+	position: absolute;
+	z-index: 1;
+	left: 5px;
+	top: 315px;
+	width: 625px;
+	height: 40px;
+	display: none;
+}
+
+#imgText p,#imgText b {
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 590px;
+	line-height: 40px;
+	padding: 0 17px;
+	height: 40px;
+	overflow: hidden;
+	z-index: 1;
+}
+
+#imgText b {
+	background: #000;
+	z-index: 0;
+}
+
+#imgText span {
+	color: #fff;
+	text-shadow: 1px 1px 0 #000;
+	float: left;
+	font-size: 14px;
+}
+
+#imgText samp {
+	color: #fff;
+	text-shadow: 1px 1px 0 #000;
+	float: right;
+	font-size: 13px;
+}
+
+#imgHover {
+	border: 4px solid #EC0000;
+	height: 56px;
+	width: 107px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+}
+
+.span7-title {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.span7-title-small {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#textarea {
+	margin-left: 5px;
+	width: 595px;
+}
+
+.pull-right {
+	margin-top: 10px;
+}
+
+.span5-h3 {
+	color: #FE693E;
+}
+
+hr {
+	width: 350px;
+	color: #F2F2F2;
+	size: 30px;
+	height: 5px;
+}
+
+.span4-ul {
+	font-size: 22px;
+	list-style: circle;
+}
+
+.span4-ul li {
+	margin-top: 15px;
+	margin-left: 20px;
+}
+#ul-img{
+	margin-left: 5px;
+}
+.in_line {
+	width: 260px;
+	height: 4px;
+	overflow: hidden;
+	display: block;
+	margin-top: 8px;
+	background: url("/v2/images/app/news/ico_information.png") no-repeat
+		-230px -414px;
+}
+
+.in_info_list {
+	
+}
+
+.in_info_list li {
+	overflow: hidden;
+	_zoom: 1;
+}
+
+.in_info_list .list {
+	height: 30px;
+	line-height: 30px;
+	display: block;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.in_info_list .info,.in_info_list .hover .list {
+	display: none;
+}
+
+.in_info_list .hover .info {
+	position: relative;
+	height: 70px;
+	padding: 6px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #dfdfdf;
+	background-color: #f6f6f6;
+	display: block;
+}
+
+.in_info_list  .pic {
+	margin-right: 9px;
+	display: block;
+	float: left;
+	width: 104px;
+	height: 70px;
+	overflow: hidden;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.in_info_list  .pic img {
+	max-width: 104px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.in_info_list .text {
+	height: 70px;
+	font-weight: 700;
+	overflow: hidden;
+}
+
+
+.in_point {
+	float: left;
+	height: 26px;
+	line-height: 26px;
+	color: #999;
+	font-size: 10px;
+	overflow: hidden;
+	display: block;
+	padding-right: 5px;
+	-webkit-text-size-adjust: none;
+}

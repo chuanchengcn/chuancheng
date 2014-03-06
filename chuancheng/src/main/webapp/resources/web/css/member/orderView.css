@@ -1,0 +1,199 @@
+@CHARSET "UTF-8";
+.uc-box .hd .btn-primary {
+    float: right;
+    margin: 10px 10px 0 0;
+}
+.uc-box .hd .btn-small {
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    width: 100px;
+}
+.order-delivery-detail .order-text-table th, .order-delivery-address .order-text-table th {
+    font-weight: 400;
+    text-align: right;
+    vertical-align: top;
+    width: 90px;
+}
+.order-delivery-table .order-goods-thumb, .order-delivery-table .order-goods-info, .order-delivery-table .order-goods-amount {
+    float: left;
+}
+.order-delivery-items {
+    margin: 20px 20px 0;
+    padding: 0 0 20px;
+}
+.order-delivery-item {
+    border: 1px solid #E6E9ED;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.order-delivery-table {
+    color: #434A54;
+    width: 100%;
+}
+.order-delivery-table {
+    color: #434A54;
+}
+.order-delivery-table th {
+    background: none repeat scroll 0 0 #F5F7FA;
+    color: #AAB2BD;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 7px 20px;
+}
+.order-delivery-table .cell-order-goods {
+    border-left: 0 none;
+    text-align: left;
+}
+.order-delivery-table th.cell-order-goods {
+    border-top-left-radius: 5px;
+}
+.order-delivery-table .cell-order-total {
+    width: 56px;
+}
+
+
+.order-delivery-table .cell-order-goods {
+    border-left: 0 none;
+    text-align: left;
+}
+
+.order-delivery-table .order-goods-thumb {
+    width: 80px;
+}
+
+.order-delivery-table .order-goods-thumb img {
+    border: 1px solid #E6E9ED;
+    height: 60px;
+    width: 60px;
+}
+
+.order-delivery-table .order-goods-info {
+    padding: 10px 40px 10px 10px;
+    width: 280px;
+}
+
+.order-delivery-table .order-goods-name {
+    color: #434A54;
+    display: block;
+}
+.order-delivery-table .order-goods-amount {
+    padding: 10px;
+    width: 50px;
+}
+
+.order-delivery-table td {
+    border: 1px solid #E6E9ED;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.order-delivery-status {
+    color: #AAB2BD;
+}
+.order-delivery-item .order-delivery-status {
+    border-bottom: 1px solid #E6E9ED;
+}
+.order-delivery-status .order-delivery-steps {
+    font-size: 12px;
+    line-height: 1.3;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.order-delivery-status .order-delivery-steps .step {
+    float: left;
+    padding: 0 0 20px;
+    text-align: center;
+    width: 151px;
+}
+
+.order-delivery-status .order-delivery-steps .step-line {
+    background-image: url("http://p.www.xiaomi.com/zt/2013/icon-delivery.png");
+    background-position: -155px 39px;
+    background-repeat: no-repeat;
+    height: 60px;
+    position: relative;
+}
+
+.order-delivery-status .order-delivery-steps .step-first .step-line {
+    background-position: 77px 39px;
+}
+
+.order-delivery-status .order-delivery-steps .step-now.step-first .step-line {
+    background-position: 77px -3px;
+}
+.order-delivery-status .order-delivery-steps .step-last .step-line {
+    background-position: -233px 39px;
+}
+.order-delivery-status .order-delivery-steps .step-now .step-line {
+    background-position: -77px 39px;
+}
+
+.order-delivery-status .order-delivery-steps .step-dot {
+    background-image: url("http://p.www.xiaomi.com/zt/2013/icon-delivery.png");
+    background-position: -310px 0;
+    background-repeat: no-repeat;
+    height: 60px;
+    left: 38px;
+    position: absolute;
+    top: 0;
+    width: 80px;
+}
+.order-delivery-status .order-delivery-steps .step-first .step-dot, .order-delivery-status .order-delivery-steps .step-done .step-dot, .order-delivery-status .order-delivery-steps .step-now .step-dot {
+    background-position: -310px -80px;
+    cursor: pointer;
+}
+.order-delivery-status .order-delivery-steps .step-first .step-dot, .order-delivery-status .order-delivery-steps .step-done .step-dot, .order-delivery-status .order-delivery-steps .step-now .step-dot {
+    background-position: -310px -80px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.btn-dakeLight {
+    background-color: #CCD0D8;
+    border: 0 none;
+    color: #FFFFFF;
+}
+.btn-round {
+    border-radius: 12px;
+    font-size: 12px;
+    height: 24px;
+    line-height: 24px;
+    width: 105px;
+}
+.order-delivery-status .order-delivery-steps .btn-comment {
+    left: 44px;
+    position: absolute;
+    top: 24px;
+}
+.order-delivery-status .order-delivery-steps .btn-comment {
+    width: 68px;
+}
+.order-delivery-status .order-delivery-steps span.btn-comment {
+    cursor: default;
+}
+
+.order-delivery-detail {
+    padding: 20px 0;
+}
+.order-delivery-address {
+    padding: 0 0 30px;
+    padding-left: 30px;
+}
+.order-delivery-address .order-text-section-l {
+    padding-right: 30px;
+    width: 540px;
+}
+.order-delivery-address h4 {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0 0 10px;
+}

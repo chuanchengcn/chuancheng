@@ -1,0 +1,57 @@
+#background_ul {
+	height: 55px;
+	margin: 20px 0 auto;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+#secondary_nav {
+	width: 1130px;
+	height: 39px;
+	margin-left: 15px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	position: absolute;
+	font-size: 12px;
+}
+#secondary_nav h1 {
+	float: left;
+	width: 150px;
+	font-size: 24px;
+	font-weight: bold;
+	color: #fe693e;
+	font-family: "Arial Black";
+	margin-top: 7px;
+	
+}
+#secondary_navUl {
+	width: 300px;
+	float: right;
+	margin-top: 7px;
+	
+}
+#secondary_navUl li {
+	float: left;
+	font-size: 14px;
+	margin: 0 10px 0 10px;
+	color: #fe693e;
+}
+
+#secondary_navUl li img {
+	margin-top: 3px;
+}
+#postSuccess{
+	display:none
+}
+.border_radius{
+	display:none;
+}
+.insert_down_face{
+	display:none;
+	padding: 10px;
+}
+#input{
+	float:right;
+	height:40px;
+}

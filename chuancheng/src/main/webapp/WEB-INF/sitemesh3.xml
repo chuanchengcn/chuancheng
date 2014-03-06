@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemesh>
+    <!-- Map default decorator. This shall be applied to all paths if no other paths match. -->
+	
+	<mapping>
+		<path>/index</path>
+		<decorator>/WEB-INF/decorators/main-index-layout.jsp</decorator>
+		<exclue>false</exclue>
+	</mapping>
+	<mapping>
+		<path>/</path>
+		<decorator>/WEB-INF/decorators/main-index-layout.jsp</decorator>
+		<exclue>false</exclue>
+	</mapping>
+	<mapping>
+		<path>/index.jsp</path>
+		<decorator>/WEB-INF/decorators/main-index-layout.jsp</decorator>
+		<exclue>false</exclue>
+	</mapping>
+	<mapping>
+		<path>/signin*</path>
+		<decorator>/WEB-INF/decorators/main-web-no-layout.jsp</decorator>
+		<exclue>false</exclue>
+	</mapping>
+	<mapping>
+		<path>/signup*</path>
+		<decorator>/WEB-INF/decorators/main-web-no-layout.jsp</decorator>
+		<exclue>false</exclue>
+	</mapping>
+	<mapping>
+		<path>/web/*</path>
+		<decorator>/WEB-INF/decorators/main-web-layout.jsp</decorator>
+		<exclue>false</exclue>
+	</mapping>
+	 <mapping>
+		<path>/web/member/professorInfo</path>
+		<decorator>/WEB-INF/decorators/main-web-layout.jsp</decorator>
+		<exclue>false</exclue>
+	</mapping>
+	 <mapping>
+		<path>/web/member/reservationService</path>
+		<decorator>/WEB-INF/decorators/main-web-layout.jsp</decorator>
+		<exclue>false</exclue>
+	</mapping>
+	<mapping>
+		<path>/web/member/*</path>
+		<decorator>/WEB-INF/decorators/main-web-member-layout.jsp</decorator>
+		<exclue>false</exclue>
+	</mapping>
+	
+	
+	 <mapping>
+		<path>/admin/*</path>
+		<decorator>/WEB-INF/decorators/main-admin-layout.jsp</decorator>
+		<exclue>false</exclue>
+	</mapping>
+	<mapping>
+		<path>/admin/login*</path>
+		<decorator>/WEB-INF/decorators/main-admin-no-layout.jsp</decorator>
+		<exclue>false</exclue>
+	</mapping>
+
+   
+	
+    <!-- Exclude path from decoration. -->
+    <mapping path="/resources/*" exclue="true"/>
+    <mapping path="/google551a0b7f06a587d9.html" exclue="true"/>
+    <mapping path="/demo/*" exclue="true"/>
+    <mapping path="/error/*" exclue="true"/>
+    <mapping path="**/ajax/**" exclue="true"/>
+    <mapping path="/company/*" exclue="true"/>
+    
+</sitemesh>

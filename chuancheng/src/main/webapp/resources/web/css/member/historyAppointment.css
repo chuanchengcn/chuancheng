@@ -1,0 +1,238 @@
+body {
+	background: #F5F7FA;
+}
+#wrapper {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	overflow: hidden;
+	background: #fff;
+	margin-bottom: 10px;
+	margin-right: 75px;
+	font-family: "微软雅黑";
+}
+#m_order_list {
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+}
+#page_overlay {
+	background: #FFFFFF;
+}
+.overlay {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: #FFFFFF;
+	z-index: 11;
+}
+.m_table thead {
+	color: #999999;
+	font-size: 12px;
+	font-weight: 700;
+}
+tr {
+	display: table-row;
+	vertical-align: inherit;
+	border-color: inherit;
+}
+.m_table thead {
+	color: #999999;
+	font-size: 12px;
+	font-weight: 700;
+}
+.m_table thead td {
+	padding: 6px 10px;
+	text-align: center;
+	background-color: #ededed;
+}
+.m_table td {
+	border: 1px solid #E0E0E0;
+	padding: 10px;
+	text-align: center;
+}
+.hd {
+	height: 50px;
+	border-bottom: 1px solid #e6e9ed;
+}
+.hd .title {
+	float: left;
+	margin: 0;
+	padding-left: 20px;
+	font: 400 18px/50px arial, "Hiragino Sans GB", "Microsoft YaHei", SimHei, sans-serif;
+	color: #434a54;
+}
+.details {
+	height: 825px;
+	display: none;
+}
+
+.title span {
+	display: inline-block;
+	width: 90%;
+	margin: 7px 0 18px;
+	margin-left: -55px;
+}
+.popup {
+	position: absolute;
+	background: #fff;
+	text-align: left;
+	width: 380px;
+	border: 1px solid #2b3b48;
+	box-shadow: 0px 0px 12px -1px rgba(0, 0, 0, 0.45);
+	border-radius: 4px;
+	padding: 14px 20px 14px 20px;
+	z-index:11111;
+	left: 450px;
+	top: 400px;
+	display: none;
+}
+.popup span{
+	float:right;
+	margin-top:-25px;
+	font-weight:bold;
+	cursor: pointer;
+}
+#emp {
+	margin-top: 20px;
+	margin-left: 70px;
+}
+#detailed {
+	width: 930px;
+	border-top: 1px #E6E9ED solid;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+#detailed-left {
+	margin-top: 10px;
+	margin-left: 20px;
+	width: 400px;
+	float: left;
+	margin-right: 20px;
+}
+.on {
+	color: #434A54;
+	font: 400 16px/50px arial, "Hiragino Sans GB", "Microsoft YaHei", SimHei, sans-serif;
+}
+.inf {
+	padding: 0px;
+	margin: 0px;
+	margin-left: 40px;
+	margin-top: -5px;
+}
+.inf li {
+	height: 28px;
+	line-height: 28px;
+}
+.inf li input {
+	float: right;
+	width: 130px;
+	height: 13px;
+	margin: 0px;
+}
+.popupInf {
+	padding: 0px;
+	margin-top: 10px;
+	margin-left: 40px;
+	
+}
+.popupInf li {
+	height: 28px;
+	line-height: 35px;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+.popupInf li input {
+	margin-left:10px;
+}
+.popupInftime {
+	padding: 0px;
+	margin: 0px;
+	margin-left: 40px;
+}
+.popupInftime li {
+	height: 28px;
+	line-height: 35px;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+.popupInftime li input {
+	margin-left:10px;
+}
+
+.timer {
+	margin-left: 40px;
+}
+.add {
+	margin-left: 40px;
+}
+#detailed-right {
+	width: 300px;
+	float: left;
+}
+.clearfix #col4 {
+	margin-right: 150px;
+}
+#goods-infocol4 {
+	margin-right: 290px;
+}
+#goods-infocol6 {
+	margin-right: 180px;
+	margin-top: -40px;
+}
+#detailed {
+	display: none;
+}
+#ord1 span {
+	color: #ccc
+}
+#detailed-right dl dd {
+	width: 198px;
+	height: 198px;
+	border: 1px solid #E6E9ED;
+}
+.clear {
+	clear: both;
+}
+#emp {
+	display: none;
+}
+#clearfix {
+	height: 50px;
+}
+#btn {
+	margin-top: 20px;
+}
+#fix {
+	border-bottom: 1px solid #E6E9ED;
+}
+#popupInp {
+	width: 55px;
+	
+	font-size: 14px;
+	float: right;
+	text-align: center;
+	margin-top: 5px;
+}
+#span {
+	float: right;
+	margin-right: 15px;
+	cursor: pointer;
+}
+.close {
+	position: relative;
+	right: -425px;
+	top: 10px;
+}
+.a_op {
+	cursor: pointer;
+}

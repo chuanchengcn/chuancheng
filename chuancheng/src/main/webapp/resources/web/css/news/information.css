@@ -1,0 +1,167 @@
+.clear {
+	clear: both;
+}
+
+#background_ul {
+	height: 55px;
+	margin: 20px 0 auto;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+#secondary_nav {
+	width: 1130px;
+	height: 39px;
+	margin-left: 15px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	position: absolute;
+	font-size: 12px;
+}
+#secondary_nav h1 {
+	float: left;
+	width: 150px;
+	font-size: 24px;
+	font-weight: bold;
+	color: #fe693e;
+	font-family: "Arial Black";
+	margin-top: 7px;
+	
+}
+#secondary_navUl {
+	width: 300px;
+	float: right;
+	margin-top: 7px;
+	
+}
+#secondary_navUl li {
+	float: left;
+	font-size: 14px;
+	margin: 0 10px 0 10px;
+	color: #fe693e;
+}
+
+#secondary_navUl li img {
+	margin-top: 3px;
+}
+
+.slide_content {
+	width: 8000px;
+}
+.image {
+	width: 800px;
+	height: 345px;
+}
+.slide_items img {
+	width: 57px;
+	height: 37px;
+}
+.usercard {
+	width: 40px;
+	height: 40px;
+}
+.pic {
+	width: 221px;
+	height: 137px;
+}
+.clearfix {
+	display: block;
+	top: 0px;
+}
+.in_ad img {
+	width: 300px;
+	height: 110px;
+}
+#DB_gallery ul, #DB_gallery li {
+	list-style: none;
+	margin: 0;
+	padding: 0
+}
+#DB_gallery img {
+	border: none;
+	vertical-align: top;
+}
+#DB_gallery {
+	width:758px;
+	border:1px solid red;
+}
+#DB_gallery .DB_imgSet {
+	position: relative;
+	
+	height: 387px;
+	overflow: hidden;
+}
+#DB_gallery .DB_imgSet .DB_imgWin {
+	height: 100%l;
+	width:100%;
+}
+#DB_gallery .DB_imgSet .DB_page {
+	position: absolute;
+	bottom: 0;
+	font: 11px tahoma bold;
+	padding: 5px;
+	color: #ffffff
+}
+.DB_imgWin img{
+	width:100%;
+}
+#DB_gallery .DB_imgSet .DB_page .DB_current {
+	color: #ffff00
+}
+#DB_gallery .DB_imgSet .DB_page .DB_total {
+	color: #ffcc00
+}
+#DB_gallery .DB_imgSet .DB_prevBtn {
+	position: absolute;
+	top: 50%;
+	margin-top: -45px;
+	cursor: pointer;
+	left: 0;
+}
+#DB_gallery .DB_imgSet .DB_nextBtn {
+	position: absolute;
+	top: 50%;
+	margin-top: -45px;
+	cursor: pointer;
+	right: 0;
+}
+
+#DB_gallery .DB_thumSet {
+	position: relative;
+	margin-top: 10px;
+	
+	overflow: hidden
+}
+#DB_gallery .DB_thumSet .DB_thumMove {
+	position: relative;
+	white-space: nowrap;
+	font-size: 0
+}
+#DB_gallery .DB_thumSet .DB_thumMove li {
+	display: inline;
+	margin-right: 8px
+}
+#DB_gallery .DB_thumSet .DB_prevPageBtn {
+	position: absolute;
+	top: 0;
+	cursor: pointer;
+	left: 0;
+}
+#DB_gallery .DB_thumSet .DB_nextPageBtn {
+	position: absolute;
+	top: 0;
+	cursor: pointer;
+	right: 0;
+}
+#DB_gallery .DB_thumSet .DB_thumLine {
+	position: absolute;
+	width: 100px;
+	height: 63px;
+	border: 5px solid #ff0000;
+	left: 0;
+	top: 0
+}
+.in_guest_info{
+	display: block;
+}

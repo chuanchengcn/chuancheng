@@ -1,0 +1,362 @@
+body, div, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ul, ol, li, form, th, td, table, label, article, aside, dialog, footer, header, section, footer, nav, figure, hgroup {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline
+}
+body {
+	color: #666;
+	font: 12px/18px "\5FAE\8F6F\96C5\9ED1", Arial, sans-serif, "\65B0\5B8B\4F53";
+	background: #f2f2f2;
+	color: #333;
+	background: url(http://www.qiyipic.com/common/fix/campusRecruitment2014_images/body_bg.png);
+	min-width: 1000px
+}
+article, aside, dialog, footer, header, section, footer, nav, figure, hgroup {
+	display: block
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-weight: normal
+}
+ul, li {
+	list-style: none
+}
+img, iframe {
+	border: 0
+}
+
+
+.mod_hd1 {
+	height: 80px;
+	background-color: orange;
+	-webkit-box-shadow: 0 4px 6px rgba(219,209,209,.75);
+	-moz-box-shadow: 0 4px 6px rgba(219,209,209,.75);
+	box-shadow: 0 4px 6px rgba(219,209,209,.75)
+}
+.mod_nav1 {
+	position: relative;
+	width: 1000px;
+	height: 80px;
+	margin: 0 auto;
+	
+}
+.mod_nav1 .logo {
+	position: absolute;
+	width: 172px;
+	height: 57px;
+	left: 0;
+	top: 12px;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=scale,src="http://www.qiyipic.com/common/fix/campusRecruitment2014_images/logo.png");
+	_background: 0
+}
+.mod_nav1 .mod_nav_sub1 {
+	position: absolute;
+	top: 0;
+	left: 200px;
+	z-index: 2
+}
+.mod_nav1 .mod_nav_sub1 a {
+	display: inline;
+	float: left;
+	width: 148px;
+	height: 80px;
+	line-height: 80px;
+	font-size: 18px;
+	text-align: center;
+	color: #fff;
+	text-decoration: none
+}
+/* pdList */
+.pdList li {
+	float: left;
+	margin-left: 8px;
+	display: inline;
+}
+
+.tmplS a:hover {
+	text-decoration: none
+}
+
+.wrapS {
+	position: relative;
+	width: 240px;
+	*width: 200px;
+	height: 154px;
+	padding: 30px 20px;
+	background: url(085.png) #50697d;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+.tmplS1 .wrapS {
+	background: white 0 -130px no-repeat;
+	border: 1px solid #b1d2e3;
+	color: #13aad6
+}
+
+.tmplS1 .wrapS:hover,.tmplS2 .wrapS:hover {
+	cursor: pointer
+}
+
+.tmplS2 .wrapS {
+	background: white -240px -130px no-repeat;
+	border: 1px solid #e4d0ad;
+	color: #fa7f23
+}
+
+.tmplS3 .wrapS {
+	background: white -480px -130px no-repeat;
+	border: 1px solid #cedbcd;
+	color: #52ac4c
+}
+
+.tmplS4 .wrapS {
+	background: white -720px -130px no-repeat;
+	border: 1px solid #c2cdd5;
+	color: #5298bb
+}
+
+.tmplS5 .wrapS {
+	background: white 0 -130px no-repeat;
+	border: 1px solid #c2cdd5;
+	color: #5298bb
+}
+
+.tmplS6 .wrapS {
+	background: white -240px -130px no-repeat;
+	border: 1px solid #cedbcd;
+	color: #52ac4c
+}
+
+.tmplS7 .wrapS {
+	background: white -480px -130px no-repeat;
+	border: 1px solid #e4d0ad;
+	color: #fa7f23
+}
+
+.tmplS8 .wrapS {
+	background: white -720px -130px no-repeat;
+	border: 1px solid #b1d2e3;
+	color: #13aad6
+}
+
+.wrapS p {
+	font-size: 16px;
+	line-height: 30px
+}
+
+.wrapS .ttl {
+	font-size: 26px
+}
+
+.wrapS .opt {
+	position: absolute;
+	right: 28px;
+	bottom: 20px
+}
+
+.wrapS .opt .nlink {
+	color: #0c96f2;
+	text-decoration: none
+}
+
+.tmplS1 .btn3 {
+	background: #3ab0de
+}
+
+.tmplS1 .btn3:hover,.tmplS1 .btn3:active {
+	background: #31a5d3
+}
+
+.tmplS2 .btn3 {
+	background: #fc8732
+}
+
+.tmplS2 .btn3:hover,.tmplS2 .btn3:active {
+	background: #e87827
+}
+
+.tmplS3 .btn3 {
+	background: #64c55c
+}
+
+.tmplS3 .btn3:hover,.tmplS3 .btn3:active {
+	background: #58b550
+}
+
+.tmplS4 .btn3 {
+	background: #3ab0de
+}
+
+.tmplS4 .btn3:hover,.tmplS4 .btn3:active {
+	background: #30a5d3
+}
+
+.tmplS5 .btn3 {
+	background: #3ab0de
+}
+
+.tmplS5 .btn3:hover,.tmplS1 .btn3:active {
+	background: #30a5d3
+}
+
+.tmplS6 .btn3 {
+	background: #64c55c
+}
+
+.tmplS6 .btn3:hover,.tmplS2 .btn3:active {
+	background: #58b550
+}
+
+.tmplS7 .btn3 {
+	background: #fc8732
+}
+
+.tmplS7 .btn3:hover,.tmplS3 .btn3:active {
+	background: #e87827
+}
+
+.tmplS8 .btn3 {
+	background: #3ab0de
+}
+
+.tmplS8 .btn3:hover,.tmplS4 .btn3:active {
+	background: #31a5d3
+}
+
+.btn {
+	position: relative;
+	display: inline-block;
+	min-width: 32px;
+	_width: 32px;
+	height: 28px;
+	line-height: 28px;
+	padding: 0 11px;
+	border: 1px solid #c6c6c6;
+	font-size: 12px;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 3px;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, .03)
+}
+
+.btn:hover {
+	text-decoration: none;
+	background-position: 0 -50px
+}
+
+.wrapS-li {
+	margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+.process_list {
+	text-align: justify;
+	text-justify: inter-ideograph
+}
+
+.process_list span {
+	display: inline-block;
+	width: 315px;
+	height: 150px;
+	margin: 20px 0 10px 0;
+	border: 1px solid #b9ce8e;
+	border-top-width: 2px;
+	background-color: #fff;
+	vertical-align: top
+}
+
+.process_list .justify {
+	overflow: hidden;
+	width: 100%;
+	height: 0;
+	border: 0;
+	margin: 0;
+	line-height: 0
+}
+
+.process_list_collageName {
+	height: 38px;
+	background-color: #faf8f8;
+	line-height: 38px;
+	font-size: 16px;
+	text-align: center
+}
+
+.process_list_info {
+	padding: 22px 0 0 20px
+}
+
+.process_list_info p {
+	margin-bottom: 6px
+}
+
+
+.wrapperInner {
+	background: #f4f4f4;
+	padding: 20px;
+	-webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2)
+}
+
+.wrapperInner-process {
+	padding: 10px 29px
+}
+
+.wrapperInner-process .process_list span {
+	width: 288px;
+	height: 132px;
+	border: 0;
+	background: 0
+}
+
+.wrapperInner-process .process_list_collageName {
+	background: #80b01d;
+	color: #fff
+}
+
+.wrapperInner-process .process_list_info {
+	border: 1px solid #e1e1e1;
+	border-top: 0;
+	padding: 15px 0 0 20px;
+	background: #fff;
+	height: 85px
+}
+
+.wrapperInner-process .process_list .justify {
+	overflow: hidden;
+	width: 100%;
+	height: 0;
+	border: 0;
+	margin: 0;
+	line-height: 0
+}
+.listHelp li {
+	height: 68px;
+	line-height: 68px;
+	border-bottom: 1px dashed #d9d9d9
+}
+.listHelp li a {
+	font-size: 14px
+}
+.listHelp li .icon-help {
+	margin-top: 15px
+}
+.listHelp li.listHelp_lastItem {
+	border: 0
+}

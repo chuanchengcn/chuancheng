@@ -1,0 +1,151 @@
+
+.Button2.WhiteButton.ContrastButton {
+    border: 0 none;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 1px rgba(255, 255, 255, 0.35) inset, 0 0 0 1px rgba(140, 126, 126, 0.5);
+    font-size: 14px;
+    padding: 8px 16px;
+	margin-right:1px;
+	color: #382F2A;
+}
+.Button2.WhiteButton.ContrastButton:hover {
+    box-shadow: 0 1px rgba(255, 255, 255, 0.35) inset, 0 0 0 1px rgba(140, 126, 126, 0.5), 0 1px 2px rgba(35, 24, 24, 0.75);
+}
+.Button2.WhiteButton.ContrastButton:active {
+    box-shadow: 0 1px 2px rgba(34, 25, 25, 0.25) inset, 0 0 0 1px rgba(140, 126, 126, 0.5), 0 0 1px rgba(232, 230, 230, 0.5);
+}
+
+.WhiteButton {
+    background: -moz-linear-gradient(center top , #FDFAFB, #F9F7F7 50%, #F6F3F4 50%, #F0EDED) repeat scroll 0 0 transparent;
+    border-color: #BBBBBB;
+	color: #524D4D;
+    text-shadow: 0 1px rgba(255, 255, 255, 0.9);
+}
+
+.Button2 {
+    border: 1px solid transparent;
+    border-radius: 0.3em 0.3em 0.3em 0.3em;
+    box-shadow: 0 1px rgba(255, 255, 255, 0.8), 0 1px rgba(255, 255, 255, 0.35) inset;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "helvetica neue",arial,sans-serif;
+    font-weight: bold;
+    line-height: 1em;
+    margin: 0;
+    padding: 0.45em 0.825em;
+    text-align: center;
+    transition: all 0.05s ease-in-out 0s;
+}
+
+#ScrollToTop{
+	position:fixed;_position:absolute;z-index:4;right:15px;bottom:-10px;width:70px;padding:20px 10px 30px;display:block;font-size:15px;font-weight:800;text-align:center;border-width:1px 1px 0 1px;border-style:solid;
+
+	box-shadow:0 0 #fff, 0 1px 3px rgba(34,25,25,0.5);
+	-moz-box-shadow:0 0 #fff, 0 1px 3px rgba(34,25,25,0.5);
+	-webkit-box-shadow:0 0 #fff, 0 1px 3px rgba(34,25,25,0.5);
+	
+	-moz-transition:bottom 250ms ease-in-out;
+	-webkit-transition: bottom 250ms ease-in-out;
+}
+#ScrollToTop.Offscreen{
+	bottom:-100px;
+	-moz-transition-duration:250ms;
+	-webkit-transition-duration:250ms;
+}
+
+.Button2.WhiteButton{
+	background-color:#f0eded;
+	background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#fdfafb), to(#f0eded), color-stop(.5,#f9f7f7),color-stop(.5,#f6f3f4));
+	background-image:-moz-linear-gradient(top, #fdfafb, #f9f7f7 50%, #f6f3f4 50%, #f0eded);
+	background-image:-o-linear-gradient(top, #fdfafb, #f9f7f7 50%, #f6f3f4 50%, #f0eded);
+	background-image:-webkit-linear-gradient(top, #fdfafb, #f9f7f7 50%, #f6f3f4 50%, #f0eded);
+	border-color:#bbb;
+	color:#524D4D;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fdfafb', endColorstr='#f0eded');
+	text-shadow:0 1px rgba(255,255,255,0.9);
+}
+.Button2.WhiteButton:hover{
+	background-color:#f2f0f0;
+	background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#fdfcfc), to(#f2f0f0), color-stop(.5,#fbf9f9),color-stop(.5,#f7f5f6));
+	background-image:-moz-linear-gradient(top, #fdfcfc, #fbf9f9 50%, #f7f5f6 50%, #f2f0f0);
+	background-image:-o-linear-gradient(top, #fdfcfc, #fbf9f9 50%, #f7f5f6 50%, #f2f0f0);
+	background-image:-webkit-linear-gradient(top, #fdfcfc, #fbf9f9 50%, #f7f5f6 50%, #f2f0f0);
+	border-color:#c3c3c3;
+	color:#666060;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fdfcfc', endColorstr='#f2f0f0');
+	text-shadow:0 1px rgba(255,255,255,1);
+}
+.Button2.WhiteButton:active{
+	background-color:#ebe8e8;
+	background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#f8f4f5), to(#ebe8e8), color-stop(.5,#f3f0f0),color-stop(.5,#f1eeef));
+	background-image:-moz-linear-gradient(top, #f8f4f5, #f3f0f0 50%, #f1eeef 50%, #ebe8e8);
+	background-image:-o-linear-gradient(top, #f8f4f5, #f3f0f0 50%, #f1eeef 50%, #ebe8e8);
+	background-image:-webkit-linear-gradient(top, #f8f4f5, #f3f0f0 50%, #f1eeef 50%, #ebe8e8);
+	border-color:#b7b7b7;
+	color:#454141;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f8f4f5', endColorstr='#ebe8e8');
+	text-shadow:0 1px rgba(255,255,255,0.8);
+}
+
+.pl{
+	color:#d9eef7;
+	border:solid 1px #0076a3;
+	background:#0095cd;
+	background:-webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+	background:-moz-linear-gradient(top,  #00adee,  #0078a5);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00adee', endColorstr='#0078a5');
+}
+.uncomment a{ color:#FFFFFF;} 
+.pl:hover{
+	background:#007ead;
+	background:-webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+	background:-moz-linear-gradient(top,  #0095cc,  #00678e);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0095cc', endColorstr='#00678e');
+}
+.pl:active{
+	color:#80bed6;
+	background:-webkit-gradient(linear, left top, left bottom, from(#0078a5), to(#00adee));
+	background:-moz-linear-gradient(top,  #0078a5,  #00adee);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0078a5', endColorstr='#00adee');
+}
+
+.button {
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    display: inline-block;
+    font: 14px/100% Arial,Helvetica,sans-serif;
+    margin: 0 2px;
+    outline: medium none;
+    padding: 0.5em 2em 0.55em;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    vertical-align: baseline;
+}
+
+
+
+
+.Button18, .Button18 span {
+    border-radius: 6px 6px 6px 6px;
+    font-size: 18px;
+}
+.Button {
+    border: 1px solid transparent;
+    border-radius: 0.3em 0.3em 0.3em 0.3em;
+    box-shadow: 0 1px rgba(255, 255, 255, 0.8), 0 1px rgba(255, 255, 255, 0.35) inset;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 1em;
+    padding: 0.45em 0.825em;
+    position: relative;
+    text-align: center;
+    transition-duration: 0.05s;
+    transition-property: color, -moz-box-shadow, text-shadow;
+    transition-timing-function: ease-in-out;
+}
+.WhiteButton {
+    background: -moz-linear-gradient(center top , #FDFAFB, #F9F7F7 50%, #F6F3F4 50%, #F0EDED) repeat scroll 0 0 transparent;
+    border-color: #BBBBBB;
+}

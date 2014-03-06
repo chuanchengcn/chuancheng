@@ -1,0 +1,337 @@
+@CHARSET "UTF-8";
+.content-index-head{
+	height: 348px;
+	overflow: hidden;
+	-webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+     border-radius: 6px;
+     border-bottom: solid 1px #ddd;
+}
+.content-index-head .content-left{
+	float: left;
+	width: 180px;
+	height: 340px;
+	overflow: hidden;
+	padding: 2px 8px;
+	margin-top: 0px;
+	/**
+	 background-color: #eeeeee;
+     -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+      border-radius: 6px;
+      **/
+}
+.content-index-head .content-left dd{
+	margin-bottom: 10px;
+}
+.content-index-head .content-middle{
+	width: 740px;
+	float: left;
+	height: 340px;
+	overflow: hidden;
+}
+.content-index-head .content-right{
+	float: left;
+	height: 340px;
+	overflow: hidden;
+   width: 228px;
+   margin-left: 10px;
+          
+}
+.content-index-head .content-right .content-right-nav{
+	height: 150px;
+	 border-bottom: solid 1px #ddd;
+}
+.content-right-app  b{
+display: block;
+width: 28px;
+height: 28px;
+margin: 0px auto;
+background-image: url(../images/fuwu.png);
+background-repeat: no-repeat;
+}
+.content-right-app h5{
+	margin-bottom: 10px;
+}
+.content-right-app p {
+	float:left;
+	margin-right: 5px;
+}
+.content-right-app b.b1 {
+ background-position: 0px 0px;
+}
+.content-right-app b.b2 {
+ background-position: -30px 0px;
+}
+.list {
+    background-color: #FFFFFF;
+    border: 1px solid #E2E2E2;
+    font-family: 微软雅黑;
+  /**  
+    margin: 0 auto;
+	margin-top: 10px;
+	**/
+	
+-moz-border-radius-topleft: 0px;
+-moz-border-radius-topright:5px;
+-moz-border-radius-bottomleft:15px;
+-moz-border-radius-bottomright:15px;
+
+-webkit-border-top-left-radius:0px;
+-webkit-border-top-right-radius:5px;
+-webkit-border-bottom-left-radius:15px;
+-webkit-border-bottom-right-radius:15px;
+
+border-top-left-radius:0px;
+border-top-right-radius:5px;
+
+border-bottom-left-radius:15px;
+border-bottom-right-radius:15px;
+	
+	
+}
+
+
+
+.flow  .header{
+background-color: #F6F6F6;
+line-height: 50px;
+font-size: 24px;
+color: #999;
+font-family: \5fae\8f6f\96c5\9ed1;
+}
+.flow .header .tab {
+position: relative;
+width: 200px;
+background-color: #efefef;
+display: block;
+border-left: 5px solid #FE9900;
+color: #333333;
+font-size: 20px;
+height: 50px;
+line-height: 46px;
+font-weight: bold;
+padding-left: 22px;
+margin-top: 0px;
+text-align: left;
+}
+.flow .header em {
+position: absolute;
+right: -20px;
+top: 0;
+width: 23px;
+height: 50px;
+background: url("../images/news/ico_information.png") no-repeat -281px -350px;
+}
+
+
+.fn-clear:after {
+    clear: both;
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+.list .list_box .list_con {
+    margin-bottom: -1px;
+    overflow: hidden;
+    padding-left: 10px;
+}
+
+.list .list_box .item {
+    border-bottom: 1px dotted #D4D4D4;
+    float: left;
+    padding: 28px 14px;
+    width: 200px;
+}
+.list .list_box .item .img_box{
+     display: block;
+    height: 200px;
+    margin: auto;
+    width: 165px;
+}
+
+.list .list_box .item .btn_box {
+    margin-top: 8px;
+    text-align: center;
+    width: 200px;
+}
+
+.list .list_box .item .btn_box {
+    margin-top: 8px;
+    text-align: center;
+    width: 200px;
+}
+
+.list .list_box .item .info {
+    text-align: center;
+}
+.list .list_box .item .info .title {
+    color: #333333;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.list .list_box .item .info .detail {
+    color: #666666;
+    font-size: 12px;
+}
+
+.list .list_box .item .info .spec {
+    color: #FF6600;
+    font-family: Georgia;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.list .list_box .item .img_box img{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+area
+**/
+.area {
+margin: 0px auto;
+text-align: left;
+}
+.title_bor {
+height: 30px;
+line-height: 30px;
+margin-bottom: 10px;
+border-bottom: dotted 1px #ddd;
+padding-bottom: 10px;
+}
+.title_bor h2 {
+font-size: 24px;
+float: left;
+line-height: 30px;
+}
+.title_bor h2 b {
+background: #f60;
+width: 4px;
+height: 17px;
+float: left;
+margin: 10px 5px 0px 0px;
+overflow: hidden;
+margin-right: 5px;
+}
+
+.title_bor .s {
+font-size: 14px;
+color: #999;
+position: relative;
+top: 6px;
+padding-left: 10px;
+}
+
+.zry_con {
+	margin-bottom: 20px;
+	overflow: hidden;
+	padding-top: 5px;
+}
+
+.zry_con .zry_left {
+	width: 712px;
+	overflow: hidden;
+	float: left;
+}
+
+.zry_con .zry_left .img_bor {
+	float: left;
+	width: 455px;
+	margin-right: 15px;
+	border: solid 5px #eee;
+}
+
+.zry_con .zry_left .img_bor:hover {
+	border: solid 5px #ffb27f;
+}
+
+.zry_con .zry_left .txt {
+	float: left;
+	width: 230px;
+}
+
+.zry_con .zry_left .txt .btn {
+	background: url(../images/yuding.png) no-repeat left top;
+	width: 120px;
+	height: 40px;
+	cursor: pointer;
+	display: inline-block;
+	padding:0px;
+}
+
+.zry_con .zry_left .txt .btn:hover {
+	opacity: 0.8;
+	filter: alpha(opacity : 80);
+}
+
+.zry_con .zry_right {
+	width: 450px;
+	float: right;
+	overflow: hidden;
+}
+
+.zry_con .zry_right ul {
+	float: right;
+}
+
+.zry_con .zry_right li {
+	float: left;
+	padding: 0px 0px 15px 0px;
+}
+
+.zry_con .zry_right li a {
+	display: block;
+	position: relative;
+	border: solid 5px #eee;
+	overflow: hidden;
+}
+
+.zry_con .zry_right li span.bg {
+	width: 100%;
+	height: 30px;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	background: #000;
+	opacity: 0.5;
+	filter: alpha(opacity : 50);
+	z-index: 1;
+}
+
+.zry_con .zry_right li span.t {
+	width: 100%;
+	height: 30px;
+	color: #fff;
+	font-weight: bold;
+	z-index: 2;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	line-height: 30px;
+	padding-left: 10px;
+}
+
+.zry_con .zry_right li a:hover {
+	border: solid 5px #ffb27f;
+}

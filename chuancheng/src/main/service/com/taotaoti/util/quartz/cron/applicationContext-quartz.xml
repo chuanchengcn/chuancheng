@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+	<!-- *************************** 工作任务调度 *************************** -->
+
+    <!-- 要调用的工作类 -->
+    <bean id="systemStatJob_common" class="com.taotaoti.util.quartz.cron.job.SystemStatJob"></bean>
+
+    <!-- 可继续加新的任务   -->
+    <!-- 要调用的工作类结束 -->
+
+    <!-- 定义调用对象和调用对象的方法 -->
+    <bean id="jobSystemStatTask"
+        class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+        <!-- 调用的类 -->
+        <property name="targetObject">
+            <ref bean="systemStatJob_common"/>
+        </property>
+        <!-- 调用类中的方法 -->
+        <property name="targetMethod">
+            <value>doEverDayMaxSessions</value>
+        </property>
+    </bean>
+    <!-- 可继续加新的   -->
+    <!-- 定义调用对象和调用对象的方法结束 -->
+  <!--  
+    <bean id="jobtask2"
+        class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+        <property name="targetObject">
+            <ref bean="quartzJob_common"/>
+        </property>
+        <property name="targetMethod">
+            <value>doMethod2</value>
+        </property>
+    </bean>
+    -->
+    <!-- 定义触发时间 -->
+    <bean id="doSystemStatTime" class="org.springframework.scheduling.quartz.CronTriggerBean">
+        <property name="jobDetail">
+            <ref bean="jobSystemStatTask" />
+        </property>
+        <!-- cron表达式 此处定义为每天零辰00:15执行任务 -->
+        <property name="cronExpression">
+            <value>0 15 23 ? * *</value>
+        </property>
+    </bean>
+    
+    <bean id="doSystemTime" class="org.springframework.scheduling.quartz.CronTriggerBean">
+        <property name="jobDetail">
+            <ref bean="jobSystemStatTask"/>
+        </property>
+        <!-- cron表达式   此处定义每1分钟触发一次-->
+        <property name="cronExpression">
+            <value>0 */1 * ? * *</value>
+        </property>
+    </bean> 
+
+    <!-- 可继续加新的   -->
+    <!-- 定义触发时间结束 -->
+	
+	
+	<!-- 总管理类 如果将lazy-init='false'那么容器启动就会执行调度程序   -->
+    <bean id="start_common" lazy-init="false" autowire="no"    class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+        <property name="triggers">
+            <list>
+                <ref bean="doSystemStatTime" />
+                <!--
+                <ref bean="doTime2" />
+                                             可继续加新的   -->
+            </list>
+        </property>
+    </bean>
+    <!-- 总管理类结束   -->
+</beans>

@@ -1,0 +1,30 @@
+.treasureInfo .header .avatar {
+	float: left;
+	margin-right: 25px;
+	border: 2px solid #e9ecee;
+	position: relative;
+	top: 3px;
+}
+
+.treasureInfo .header .name {
+	font-weight: 600;
+	margin: 20px 0 8px 0;
+	line-height: 26px;
+	margin-bottom: 10px;
+	float: none;
+}
+
+.treasureInfo .header span.area {
+	color: #7d848c;
+	font-style: italic;
+	font-size: 14px;
+}
+
+.treasureInfo .header a.btn-flat {
+	margin-top: 18px;
+}
+
+.treasureInfo .header a.delete-user {
+	margin-left: 10px;
+	font-size: 14px;
+}

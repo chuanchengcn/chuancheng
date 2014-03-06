@@ -1,0 +1,29 @@
+ label.error  
+{  
+    display: inline-block;  
+    margin-left: 5px;  
+    padding: 5px 0 5px 20px;  
+    color: #F00;  
+    font-size: 12px;  
+    line-height: 12px;  
+    background: url(../images/unchecked.gif)  no-repeat;  
+    vertical-align: middle;  
+    color: Red;  
+    margin-top: 7px;  
+}  
+label.success  
+{  
+    background: url(../images/checked.gif)  no-repeat;  
+    vertical-align: middle;  
+    margin-top: 7px;  
+}  
+.ipt_txt  
+{  
+    width: 150px;  
+    border: 1px solid #B1C3D9;  
+    background-color: #FBFBFB;  
+}  
+input.error  
+{  
+    background-color: #FBE2E2;  
+}  

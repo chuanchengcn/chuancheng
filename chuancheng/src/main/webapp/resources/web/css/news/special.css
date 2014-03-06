@@ -1,0 +1,252 @@
+#background_ul {
+	height: 55px;
+	margin: 20px 0 auto;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+#secondary_nav {
+	width: 1130px;
+	height: 39px;
+	margin-left: 15px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	position: absolute;
+	font-size: 12px;
+}
+#secondary_nav h1 {
+	float: left;
+	width: 150px;
+	font-size: 24px;
+	font-weight: bold;
+	color: #fe693e;
+	font-family: "Arial Black";
+	margin-top: 7px;
+	
+}
+#secondary_navUl {
+	width: 300px;
+	float: right;
+	margin-top: 7px;
+	
+}
+#secondary_navUl li {
+	float: left;
+	font-size: 14px;
+	margin: 0 10px 0 10px;
+	color: #fe693e;
+}
+
+#secondary_navUl li img {
+	margin-top: 3px;
+}
+#container {
+	border: 0px solid red;
+}
+
+.p_a_color {
+	color: #FE693E;
+}
+
+hr {
+	width: 300px;
+	color: #F2F2F2;
+	size: 5px;
+}
+
+/* .css2 {
+	
+	background-color: #FE693E;
+} */
+.img_box0 {
+	width: 600px;
+	height: 288px;
+	border: 2px solid #F2F2F2;
+	padding: 1px;
+}
+
+.css2 {
+	width: 600px;
+	height: 288px;
+	border: 2px solid #FE693E;
+	padding: 1px;
+}
+
+.img_box1 {
+	width: 270px;
+	height: 129px;
+	border: 2px solid #F2F2F2;
+	padding: 1px;
+}
+
+.css3 {
+	width: 270px;
+	height: 129px;
+	border: 2px solid #FE693E;
+	padding: 1px;
+}
+
+.img_box2 {
+	width: 270px;
+	height: 129px;
+	margin-top: 30px;
+	border: 2px solid #F2F2F2;
+	padding: 1px;
+}
+
+.css4 {
+	width: 270px;
+	height: 129px;
+	margin-top: 30px;
+	border: 2px solid #FE693E;
+	padding: 1px;
+}
+
+#container .img_box {
+	width: 270px;
+	height: 129px;
+	border: 3px solid #F2F2F2;
+	padding: 2px;
+}
+
+.css1 {
+	width: 270px;
+	height: 129px;
+	border: 3px solid #FE693E;
+	padding: 2px;
+}
+
+#item {
+	border-style: none;
+	margin-left: 20px;
+}
+
+#items {
+	border-style: none;
+	margin-left: 20px;
+}
+
+#item0 {
+	float: right;
+	margin-right: 120px;
+	border-style: none;
+}
+
+#item1,#item2,#item3,#item4,#item5,#item6,#item7,#item8,#item9,#item10 {
+	border-style: none;
+	margin-left: 100px;
+}
+
+#item11,#item12,#item13,#item14 {
+	border-style: none;
+	margin-left: 20px;
+}
+
+.btn_box_p {
+	font-weight: bold;
+	font-size: large;
+	text-align: left;
+}
+
+.info_p {
+	text-align: left;
+}
+
+#info,#info1,#info2,#info3,#info4,#info5,#info6,#info7 {
+	width: 270px;
+	height: 129px;
+}
+
+#info8 {
+	width: 600px;
+	height: 10px;
+	font-weight: bold;
+	font-size: large;
+}
+
+#info9 {
+	width: 600px;
+	height: 129px;
+}
+
+#img_box_div {
+	opacity: 0.78;
+	-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity= 78);
+	/*-ms-filter must come before filter*/
+	filter: alpha(opacity = 78);
+	/*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+	/*All filters must be placed together*/
+	background-color: black;
+	height: 100px;
+	margin-top: -103px;
+	width: 595px;
+	margin-left: 5px;
+	border-style: none;
+	position: absolute;
+}
+
+#img_box_div1 {
+	opacity: 0.70;
+	-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity= 70);
+	/*-ms-filter must come before filter*/
+	filter: alpha(opacity = 70);
+	/*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+	/*All filters must be placed together*/
+	background-color: black;
+	height: 30px;
+	margin-top: -33px;
+	width: 268px;
+	margin-left: 4px;
+	border-style: none;
+	position: absolute;
+}
+
+#img_box_div2 {
+	opacity: 0.70;
+	-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity= 70);
+	/*-ms-filter must come before filter*/
+	filter: alpha(opacity = 70);
+	/*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+	/*All filters must be placed together*/
+	background-color: black;
+	height: 30px;
+	margin-top: -33px;
+	width: 270px;
+	margin-left: 4px;
+	border-style: none;
+	position: absolute;
+}
+
+#img_box_div_a {
+	color: white;
+	text-decoration: underline;
+	font-size: large;
+	margin-left: 10px;
+}
+
+#img_box_div1_a {
+	color: white;
+	text-decoration: underline;
+	font-size: large;
+	margin-left: 10px;
+}
+
+#img_box_div2_a {
+	color: white;
+	text-decoration: underline;
+	font-size: large;
+	margin-left: 10px;
+}
+
+#img_box_div_p {
+	color: white;
+	text-align: left;
+	margin-top: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.more{
+	float: right;
+	margin-top: -250px;
+}

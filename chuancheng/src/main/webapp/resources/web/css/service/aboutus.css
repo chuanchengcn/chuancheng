@@ -1,0 +1,141 @@
+.body_container {
+	width: 100%;
+	margin: 0 auto;
+	padding: 25px 0;
+	min-height: 300px;
+	padding-top: 0;
+	
+}
+#container {
+    border-bottom-right-radius: 13px;
+	border-bottom-left-radius: 13px;
+	margin: 0 auto;
+	padding: 0 10px;
+	background-color: #fff;
+	height: 600px;
+}
+.pull-left {
+	float: left;
+}
+.about_li {
+	padding-top: 30px;
+	width: 200px;
+}
+.about_menu {
+	list-style-type: none;
+	margin: 6px;
+}
+.about_menu li {
+	padding: 10px 15px;
+	font-size: 14px;
+}
+.about_menu li.active a {
+	color: #d54900;
+}
+.about_body {
+	padding: 15px;
+	border-left: 2px solid #eee;
+	padding-top: 30px;
+	width: 800px;
+	overflow: hidden;
+}
+.about_body .about_title {
+	padding: 10px 5px;
+	font-size: 18px;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 20px;
+}
+.about_body .about_content {
+	padding: 5px;
+}
+.about_content ul {
+	font-size: 14px;
+}
+.about_body .about_content p {
+	font-size: 14px;
+	line-height: 22px;
+}
+.clr {
+	clear: both;
+}
+.tabsLink {
+	overflow: hidden;
+}
+.tabsTag {
+	overflow: hidden;
+	zoom: 1;
+	height: 24px;
+}
+.tabsTag li{
+	margin-left:10px;
+	margin-right:10px;
+}
+.blTabs .tabsTag li {
+	margin-right: 1px;
+	height: 24px;
+	float: left;
+}
+.tabsTag li {
+	display: inline-block;
+}
+.tabsCon {
+	padding: 0 10px;
+}
+
+.firstTxt {
+	padding: 35px 0px;
+}
+.fl {
+	float: left;
+	display: inline;
+}
+.firstTxt .firstFl h3 {
+	font-size: 40px;
+	line-height: 40px;
+	font-weight: normal;
+	margin-bottom: 30px;
+}
+.firstTxt .firstFl p {
+	font-size: 14px;
+}
+a {
+	color: #000000;
+	text-decoration: none;
+	outline: none;
+}
+.verdana {
+	font: normal 14px Verdana;
+}
+.firstTxt .firstFr {
+	border: 1px solid #d4d4d4;
+	width: 279px;
+	height: 82px;
+	line-height: 26px;
+	padding: 14px 0 0 20px;
+	color: #999;
+	margin: 4px 0 0 0;
+}
+.firstTxt .firstFr strong {
+	font: normal 36px Verdana;
+}
+.project .proTitle {
+	font-size: 16px;
+	padding-left: 20px;
+	font-weight: normal;
+	height: 33px;
+	line-height: 33px;
+}
+.project .proList {
+	padding-bottom: 25px;
+}
+.project .proList dl {
+	width: 293px;
+	padding-left: 20px;
+}
+.project .proList dl dt {
+	font: bold 16px "微软雅黑";
+	margin: 25px 0 12px;
+}
+.project dl {
+	float: left;
+}

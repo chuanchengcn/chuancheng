@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+.uc-password-section {
+    border-top: 1px solid #E6E9ED;
+    padding: 20px;
+}
+.uc-password-form fieldset.item {
+    border: 0 none;
+    padding: 15px 0 0;
+}
+.xm-add-new-password .item label span {
+    color: #FF6F3D;
+}
+.uc-password-form fieldset.submit {
+    border-top: 1px solid #E6E9ED;
+}
+.uc-password-section input {
+	height: 30px;
+	width: 270px;
+}
